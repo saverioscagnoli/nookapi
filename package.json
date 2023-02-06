@@ -2,6 +2,9 @@
   "name": "nook-api",
   "version": "0.0.1",
   "main": "dist/index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "ts-node src/index.ts",
     "watch": "ts-node-dev src/index.ts",
