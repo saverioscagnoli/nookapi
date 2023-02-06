@@ -1,0 +1,67 @@
+{
+  "id": 50,
+  "names": {
+    "en": "surgeonfish",
+    "de": "Paletten-Doktorfisch",
+    "es": "pez cirujano",
+    "fr": "poisson chirurgien",
+    "it": "poisson-chirurgien",
+    "nl": "pesce chirurgo",
+    "cn": "doktersvis",
+    "jp": "擬刺尾鯛",
+    "kr": "ナンヨウハギ",
+    "ru": "블루탱"
+  },
+  "seasonality": {
+    "northern": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 1000,
+    "CJ": 1500
+  },
+  "blathers": "Hoo! Careful, now! These fish are particularly dangerous, despite their seemingly docile appearance. With its saturated blue and yellow tones, the surgeonfish is quite breathtaking. It's got to keep up with all the other vibrant fish that live in the coral too, I wager. Quite the competition! Its spine is sharp as a blade, so care must be taken when handling these beauties...",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/50"
+}

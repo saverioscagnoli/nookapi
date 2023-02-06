@@ -1,0 +1,67 @@
+{
+  "id": 69,
+  "names": {
+    "en": "mahi-mahi",
+    "de": "Goldmakrele",
+    "es": "lampuga",
+    "fr": "coryphène",
+    "it": "mahi-mahi",
+    "nl": "lampuga",
+    "cn": "goudmakreel",
+    "jp": "鬼頭刀",
+    "kr": "シイラ",
+    "ru": "만새기"
+  },
+  "seasonality": {
+    "northern": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southern": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 5,
+  "sell_prices": {
+    "nook": 6000,
+    "CJ": 9000
+  },
+  "blathers": "The mahi-mahi is an ocean fish known for its wide, somewhat-cute face. It can reach over six feet long. It is known by different names including \"dolphinfish,\" even though it has no relation to dolphins. They live in only in warm, tropical waters...which perhaps explains the relaxed, happy look on their faces.",
+  "rarity": "***",
+  "render": "http://localhost:5000/api/render/fish/69"
+}

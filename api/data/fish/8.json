@@ -1,0 +1,62 @@
+{
+  "id": 8,
+  "names": {
+    "en": "pop-eyed goldfish",
+    "de": "Teleskopauge",
+    "es": "pez telescopio",
+    "fr": "cyprin doré",
+    "it": "cyprin doré",
+    "nl": "pesce telescopio",
+    "cn": "telescoopooggoudvis",
+    "jp": "龍睛金魚",
+    "kr": "デメキン",
+    "ru": "툭눈금붕어"
+  },
+  "seasonality": {
+    "northern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 1300,
+    "CJ": 1950
+  },
+  "blathers": "Pop-eyed goldfish have, as the name suggests, huge round eyes. But as babies they look like other goldfish! As they grow, their eyes begin to pop out and they gain their, hoo, distinct appearance... Imagine the poor fish fancier who unknowingly bought one! Their eyes might well pop out just as far!",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/8"
+}

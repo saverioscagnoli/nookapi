@@ -1,0 +1,67 @@
+{
+  "id": 21,
+  "names": {
+    "en": "yellow perch",
+    "de": "Flussbarsch",
+    "es": "perca amarilla",
+    "fr": "perche jaune",
+    "it": "perche jaune",
+    "nl": "perca dorata",
+    "cn": "jackbaars",
+    "jp": "黃鱸魚",
+    "kr": "イエローパーチ",
+    "ru": "옐로우퍼치"
+  },
+  "seasonality": {
+    "northern": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "southern": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 300,
+    "CJ": 450
+  },
+  "blathers": "The yellow perch is certainly worth squawking about. I find it a sight to behold! That jagged dorsal fin! Those brilliant stripes! Those glorious colours! Hoo, truly it is quite the specimen. I would be thrilled to witness it firsthand in its natural environment... But the yellow perch's peak season is winter, I'm afraid. (So very afraid... of winter's biting chill...)",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/21"
+}

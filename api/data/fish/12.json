@@ -1,0 +1,52 @@
+{
+  "id": 12,
+  "names": {
+    "en": "soft-shelled turtle",
+    "de": "Weichschildkröte",
+    "es": "tortuga caparazón blando",
+    "fr": "tortue trionyx",
+    "it": "tortue trionyx",
+    "nl": "apalone ferox",
+    "cn": "weekschildpad",
+    "jp": "鱉",
+    "kr": "スッポン",
+    "ru": "자라"
+  },
+  "seasonality": {
+    "northern": [
+      8,
+      9
+    ],
+    "southern": [
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 4,
+  "sell_prices": {
+    "nook": 3750,
+    "CJ": 5625
+  },
+  "blathers": "These relatives of common turtles will not let go when they decide to bite down on something. Although they can be quite shy, they will become a bit aggressive when threatened. They are often found in water and are very good swimmers because of the flat shape of their shells. They swim with their snouts over the surface of the water so they can breathe. Soft-shelled turtles aren't safe to hold because they are so prone to biting at the slightest movement. However, if one bites down on you, it will usually let go when you put it safely back in the water.",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/12"
+}

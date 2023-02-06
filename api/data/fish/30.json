@@ -1,0 +1,56 @@
+{
+  "id": 30,
+  "names": {
+    "en": "stringfish",
+    "de": "Huchen",
+    "es": "taimén",
+    "fr": "dai yu",
+    "it": "dai yu",
+    "nl": "taimen",
+    "cn": "Donauzalm",
+    "jp": "遠東哲羅魚",
+    "kr": "イトウ",
+    "ru": "일본연어"
+  },
+  "seasonality": {
+    "northern": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "southern": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 5,
+  "sell_prices": {
+    "nook": 15000,
+    "CJ": 22500
+  },
+  "blathers": "The stringfish grows slowly, but also lives quite a long time for a fish, with up to 15 years being typical. Consequently, while it takes a while, they can get quite large-perhaps even up to six feet long! The stringfish is perhaps the best embodiment in the fish world of 'slow and steady wins the race'",
+  "rarity": "****",
+  "render": "http://localhost:5000/api/render/fish/30"
+}

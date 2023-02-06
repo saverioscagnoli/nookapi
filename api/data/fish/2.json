@@ -1,0 +1,62 @@
+{
+  "id": 2,
+  "names": {
+    "en": "pale chub",
+    "de": "Döbel",
+    "es": "cacho",
+    "fr": "chevaine",
+    "it": "chevaine",
+    "nl": "zacco",
+    "cn": "Japanse drakenvis",
+    "jp": "溪哥",
+    "kr": "オイカワ",
+    "ru": "피라미"
+  },
+  "seasonality": {
+    "northern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 200,
+    "CJ": 300
+  },
+  "blathers": "The pale chub is a river fish with simple back-and-silver coloring. Interestingly, the males' coloring becomes most vibrant when he's trying to attract a mate! Though normally plain, these fellows really know how to look stylish when they want to. Perhaps I could learn a thing or two from the pale chub...",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/2"
+}

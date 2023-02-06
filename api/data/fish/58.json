@@ -1,0 +1,73 @@
+{
+  "id": 58,
+  "names": {
+    "en": "barred knifejaw",
+    "de": "Schnabelbarsch",
+    "es": "dorada japonesa",
+    "fr": "scarus",
+    "it": "scarus",
+    "nl": "ishidai",
+    "cn": "kraaibek",
+    "jp": "條石鯛",
+    "kr": "イシダイ",
+    "ru": "돌돔"
+  },
+  "seasonality": {
+    "northern": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southern": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 5000,
+    "CJ": 7500
+  },
+  "blathers": "Wonderful! I would love nothing more! The barred knifejaw, also called the striped beakfish, is a lovely fish with a distinctive striped pattern. It is reportedly also a very curious fish in that it has been known to approach swimmers to \"greet\" them. They also tend to be good at avoiding fishing hooks, so well done on outwitting this one!",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/58"
+}

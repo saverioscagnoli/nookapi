@@ -1,0 +1,60 @@
+{
+  "id": 18,
+  "names": {
+    "en": "catfish",
+    "de": "Katzenwels",
+    "es": "siluro",
+    "fr": "silure",
+    "it": "barbotte",
+    "nl": "pesce gatto",
+    "cn": "meerval",
+    "jp": "鯰魚",
+    "kr": "ナマズ",
+    "ru": "메기"
+  },
+  "seasonality": {
+    "northern": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southern": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 4,
+  "sell_prices": {
+    "nook": 800,
+    "CJ": 1200
+  },
+  "blathers": "Catfish don't have scales and are rather slimy. Believe it or not, this slime helps them breathe! Some species of catfish are nocturnal, and they'll feed on almost anything. They use a suctioning action to pull in their food. Did I mention they can grow as large as you or I?",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/18"
+}

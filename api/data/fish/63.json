@@ -1,0 +1,73 @@
+{
+  "id": 63,
+  "names": {
+    "en": "squid",
+    "de": "Kalmar",
+    "es": "calamar",
+    "fr": "calmar",
+    "it": "calmar",
+    "nl": "calamaro",
+    "cn": "pijlinktvis",
+    "jp": "魷魚",
+    "kr": "イカ",
+    "ru": "오징어"
+  },
+  "seasonality": {
+    "northern": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "southern": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 500,
+    "CJ": 750
+  },
+  "blathers": "Well, first off, squids are members of the mollusk family, just like the octopus. Many mollusks like snails and clams have shells, but the squid's body is almost completely soft. The exception is a long, narrow bit of hard material going through its main body - the last remnant of its shell. Of course, having your shell INSIDE is not a best practice. Perhaps they lost the owner's manual!",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/63"
+}

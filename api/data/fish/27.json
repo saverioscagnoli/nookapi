@@ -1,0 +1,62 @@
+{
+  "id": 27,
+  "names": {
+    "en": "cherry salmon",
+    "de": "Masulachs",
+    "es": "salmón japonés",
+    "fr": "saumon masou",
+    "it": "saumon masou",
+    "nl": "salmone giapponese",
+    "cn": "Japanse zalm",
+    "jp": "櫻花鉤吻鮭",
+    "kr": "ヤマメ",
+    "ru": "산천어"
+  },
+  "seasonality": {
+    "northern": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "southern": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 1000,
+    "CJ": 1500
+  },
+  "blathers": "The cherry salmon is related to the salmon, and is known for its distinctive pattern of \"polka dots\". There polka dots disappear as they mature, but ONLY in the first of certain geographic regions. Pity the poor researchers that must make sense of the cherry salmon's fickle fashion sense.",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/27"
+}

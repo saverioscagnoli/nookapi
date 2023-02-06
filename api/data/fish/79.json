@@ -1,0 +1,62 @@
+{
+  "id": 79,
+  "names": {
+    "en": "barreleye",
+    "de": "Glaskopffisch",
+    "es": "pez cabeza transparente",
+    "fr": "macropinna",
+    "it": "revenant",
+    "nl": "macropinna",
+    "cn": "hemelkijker",
+    "jp": "太平洋桶眼魚",
+    "kr": "デメニギス",
+    "ru": "데메니기스"
+  },
+  "seasonality": {
+    "northern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 15000,
+    "CJ": 22500
+  },
+  "blathers": "The barreleye is a deep-sea fish with protuberant eyes and a clear head, so some of its organs are... visible. At first blush, a transparent head seems absurd, but there is a reason: so it can see things directly above! But I must confess - the more I learn about deep-sea fish, the happier I am to live on dry land, wot.",
+  "rarity": "****",
+  "render": "http://localhost:5000/api/render/fish/79"
+}

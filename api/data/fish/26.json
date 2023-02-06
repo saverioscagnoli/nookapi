@@ -1,0 +1,61 @@
+{
+  "id": 26,
+  "names": {
+    "en": "sweetfish",
+    "de": "Ayu",
+    "es": "ayu",
+    "fr": "ayu",
+    "it": "ayu",
+    "nl": "ayu",
+    "cn": "ayu",
+    "jp": "香魚",
+    "kr": "アユ",
+    "ru": "은어"
+  },
+  "seasonality": {
+    "northern": [
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 900,
+    "CJ": 1350
+  },
+  "blathers": "Sweetfish are the damp heralds of summer! These slippery fellows appear in numbers when it warms up. They hatch in a river, then swim to the ocean. Once mature, they return to the river where they were born. But when they return depends on the river temperature— if it's too cold their fishing season will start later. Some even say summer can't start without sweetfish despite the KEY role played by the earth's axial tilt!",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/26"
+}

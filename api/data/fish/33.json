@@ -1,0 +1,54 @@
+{
+  "id": 33,
+  "names": {
+    "en": "mitten crab",
+    "de": "Wollhandkrabbe",
+    "es": "cangrejo de Shanghái",
+    "fr": "crabe chinois",
+    "it": "crabe chinois",
+    "nl": "granchio guantato",
+    "cn": "wolhandkrab",
+    "jp": "中華絨螯蟹",
+    "kr": "シャンハイガニ",
+    "ru": "참게"
+  },
+  "seasonality": {
+    "northern": [
+      9,
+      10,
+      11
+    ],
+    "southern": [
+      3,
+      4,
+      5
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 2000,
+    "CJ": 3000
+  },
+  "blathers": "The mitten crab was named for its impossibly adorable and fuzzy little pincers. These cute crustaceans embark on quite the journey. They're first born in brackish waters. Then they mature in freshwater. Finally, they travel to the ocean to create more mitten crabs!Hoo! How I delight in the thought of thousands of tiny mittened crabs scuttling about!",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/33"
+}

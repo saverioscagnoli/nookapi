@@ -1,0 +1,67 @@
+{
+  "id": 78,
+  "names": {
+    "en": "oarfish",
+    "de": "Riemenfisch",
+    "es": "pez remo",
+    "fr": "poisson-ruban",
+    "it": "poisson-ruban",
+    "nl": "pesce remo",
+    "cn": "riemvis",
+    "jp": "皇帶魚",
+    "kr": "リュウグウノツカイ",
+    "ru": "산갈치"
+  },
+  "seasonality": {
+    "northern": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "southern": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 6,
+  "sell_prices": {
+    "nook": 9000,
+    "CJ": 13500
+  },
+  "blathers": "The oarfish is a long, eel-like fish that can supposedly reach up to 36 feet in length. They appear in various legends as things like messengers of the gods. It seems to me a creature like that could explain the myth of massive, ship-crushing sea serpents. It is, of course, well documented that people tend to exaggerate the size of \"the one that got away\".",
+  "rarity": "***",
+  "render": "http://localhost:5000/api/render/fish/78"
+}

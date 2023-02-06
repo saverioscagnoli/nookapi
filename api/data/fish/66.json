@@ -1,0 +1,67 @@
+{
+  "id": 66,
+  "names": {
+    "en": "tuna",
+    "de": "Thunfisch",
+    "es": "atún",
+    "fr": "thon",
+    "it": "thon",
+    "nl": "tonno",
+    "cn": "tonijn",
+    "jp": "鮪魚",
+    "kr": "マグロ",
+    "ru": "다랑어"
+  },
+  "seasonality": {
+    "northern": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "southern": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 6,
+  "sell_prices": {
+    "nook": 7000,
+    "CJ": 10500
+  },
+  "blathers": "The tuna is a large ocean fish that can reach upwards of nine feet long. Besides its great size, it's notable for continuing to swim even when it's sleeping! Well, to be fair, if it doesn't keep swimming, it won't be able to breathe and will of course die... But sleep should be restful, eh wot! If I were the tuna I would feel very hard done by!",
+  "rarity": "***",
+  "render": "http://localhost:5000/api/render/fish/66"
+}

@@ -1,0 +1,53 @@
+{
+  "id": 40,
+  "names": {
+    "en": "piranha",
+    "de": "Piranha",
+    "es": "piraña",
+    "fr": "piranha",
+    "it": "piranha",
+    "nl": "pesce piranha",
+    "cn": "piranha",
+    "jp": "食人魚",
+    "kr": "ピラニア",
+    "ru": "피라니아"
+  },
+  "seasonality": {
+    "northern": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 2500,
+    "CJ": 3750
+  },
+  "blathers": "I am not exactly a fan of the piranha, despite knowing that they're mostly harmless. But those nasty, pointy teeth, Hoo. These infamous little blighters will attack when in groups. Imagine all of those hundreds of tiny teeth! To think that they're floundering about our peaceful waters, just waiting to strike. Well, never fear— I shall keep THIS one under the strictest lock and key, with nary a bathroom break allowed!",
+  "rarity": "***",
+  "render": "http://localhost:5000/api/render/fish/40"
+}

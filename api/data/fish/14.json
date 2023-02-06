@@ -1,0 +1,65 @@
+{
+  "id": 14,
+  "names": {
+    "en": "tadpole",
+    "de": "Kaulquappe",
+    "es": "renacuajo",
+    "fr": "têtard",
+    "it": "têtard",
+    "nl": "girino",
+    "cn": "kikkervisje",
+    "jp": "蝌蚪",
+    "kr": "オタマジャクシ",
+    "ru": "올챙이"
+  },
+  "seasonality": {
+    "northern": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "southern": [
+      9,
+      10,
+      11,
+      12,
+      1
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 100,
+    "CJ": 150
+  },
+  "blathers": "Undoubtedly you know that tadpoles eventually turn into frogs. I must say, I find them impossibly adorable with their squiggly little tails. But even cuter... when they sprout legs! Why, we can witness accelerated evolution in these squirmy little ones. Hoo, it makes me so emotional!",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/14"
+}

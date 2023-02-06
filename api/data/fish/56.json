@@ -1,0 +1,72 @@
+{
+  "id": 56,
+  "names": {
+    "en": "anchovy",
+    "de": "Sardelle",
+    "es": "boquerón",
+    "fr": "anchois",
+    "it": "anchois",
+    "nl": "acciuga",
+    "cn": "ansjovis",
+    "jp": "鳳尾魚",
+    "kr": "アンチョビ",
+    "ru": "멸치"
+  },
+  "seasonality": {
+    "northern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 200,
+    "CJ": 300
+  },
+  "blathers": "There are more than 140 species of anchovy, but they do all have some things in common. They are small and feed by simply swimming with their mouths open to filter food particles from the sea. (In my sleepier moments, I sometimes wish I could do that...)",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/56"
+}

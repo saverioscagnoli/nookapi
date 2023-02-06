@@ -1,0 +1,61 @@
+{
+  "id": 17,
+  "names": {
+    "en": "loach",
+    "de": "Bachschmerle",
+    "es": "locha",
+    "fr": "loche d'étang",
+    "it": "loche d'étang",
+    "nl": "cobite",
+    "cn": "modderkruiper",
+    "jp": "泥鰍",
+    "kr": "ドジョウ",
+    "ru": "미꾸라지"
+  },
+  "seasonality": {
+    "northern": [
+      3,
+      4,
+      5
+    ],
+    "southern": [
+      9,
+      10,
+      11
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 400,
+    "CJ": 600
+  },
+  "blathers": "Loaches are a large group of bottom-feeding freshwater fish. Because there are so many species, it is difficult to generalize about them all. The one thing they all have in common is perhaps their most unappealing trait; the name 'loach.' Repellent, isn't it? They should have just called it the 'cockloach' and been done with it, eh wot! Loach...loach... It just tastes terrible in the beak.",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/17"
+}

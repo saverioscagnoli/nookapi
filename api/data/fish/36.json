@@ -1,0 +1,60 @@
+{
+  "id": 36,
+  "names": {
+    "en": "angelfish",
+    "de": "Skalar",
+    "es": "pez ángel",
+    "fr": "poisson-ange",
+    "it": "poisson-ange",
+    "nl": "pesce angelo",
+    "cn": "maanvis",
+    "jp": "神仙魚",
+    "kr": "エンゼルフィッシュ",
+    "ru": "천사어"
+  },
+  "seasonality": {
+    "northern": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southern": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 3000,
+    "CJ": 4500
+  },
+  "blathers": "The angelfish is truly a beautiful creature. Just look at the elegance of those fins!Despite the name, however, these lovelies are known to be rather aggressive. They've no qualms about relentlessly pursuing fish much smaller than themselves! Why, they even attack their own kin! It seems no fish is safe around these \"angelic\" bullies. It makes one wonder who comes up with these names. Appearances— and names— can be deceiving.",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/36"
+}

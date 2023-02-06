@@ -1,0 +1,58 @@
+{
+  "id": 77,
+  "names": {
+    "en": "football fish",
+    "de": "Anglerfisch",
+    "es": "pez balón",
+    "fr": "poisson lanterne",
+    "it": "poisson-lanterne",
+    "nl": "pesce abissale",
+    "cn": "voetbalvis",
+    "jp": "燈籠魚",
+    "kr": "チョウチンアンコウ",
+    "ru": "초롱아귀"
+  },
+  "seasonality": {
+    "northern": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "southern": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 4,
+  "sell_prices": {
+    "nook": 2500,
+    "CJ": 3750
+  },
+  "blathers": "The football fish is a strange and grotesque deep-sea fish with a lantern-like light on its forehead. Its light is apparently powered by luminous bacteria and other glowing microorganisms. One theory says it can spray these luminescent sidekicks when prey approaches in order to dazzle them...The deep contains many mysteries...as well as some things that are just sort of odd and off-putting.",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/77"
+}

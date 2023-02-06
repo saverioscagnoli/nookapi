@@ -1,0 +1,50 @@
+{
+  "id": 39,
+  "names": {
+    "en": "rainbowfish",
+    "de": "Regenbogenfisch",
+    "es": "pez arcoíris",
+    "fr": "poisson arc-en-ciel",
+    "it": "poisson-arc-en-ciel",
+    "nl": "pesce arcobaleno",
+    "cn": "regenboogvis",
+    "jp": "彩虹魚",
+    "kr": "レインボーフィッシュ",
+    "ru": "레인보우피시"
+  },
+  "seasonality": {
+    "northern": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southern": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 800,
+    "CJ": 1200
+  },
+  "blathers": "The rainbowfish is a tropical fish known for its metallic colors and beautiful fins. There are over 50 different species, each unique and pleasing color. I must say, it does make me wish for feathers of a more exciting hue than \"underbaked brownie.\"",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/39"
+}

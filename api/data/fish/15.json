@@ -1,0 +1,63 @@
+{
+  "id": 15,
+  "names": {
+    "en": "frog",
+    "de": "Frosch",
+    "es": "rana",
+    "fr": "grenouille",
+    "it": "grenouille",
+    "nl": "rana",
+    "cn": "kikker",
+    "jp": "青蛙",
+    "kr": "カエル",
+    "ru": "개구리"
+  },
+  "seasonality": {
+    "northern": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "southern": [
+      11,
+      12,
+      1,
+      2
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 120,
+    "CJ": 180
+  },
+  "blathers": "I understand that frogs converse with fellow frogs through a number of varied calls, as it were. Ribbit! My prince has arrived! Gribbit riiibbit! This pond is tragic! Ribbity rib't! I think you're splendid! Hoo hoo, of course I have no clue what they're saying, but I like to think if I practice enough, I might!",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/15"
+}

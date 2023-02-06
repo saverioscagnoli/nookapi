@@ -1,0 +1,56 @@
+{
+  "id": 42,
+  "names": {
+    "en": "dorado",
+    "de": "Lachssalmler",
+    "es": "dorado",
+    "fr": "dorado",
+    "it": "dorade",
+    "nl": "dorado",
+    "cn": "dorado",
+    "jp": "黃金河虎",
+    "kr": "ドラド",
+    "ru": "황금연어"
+  },
+  "seasonality": {
+    "northern": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "shadow_size": 5,
+  "sell_prices": {
+    "nook": 15000,
+    "CJ": 22500
+  },
+  "blathers": "Woo-hoo! So shiny! This massive fish's name, dorado, means \"golden\" in Spanish— a fitting title. They are also quite valuable, I understand. I congratulate you on your top-notch angling! They are rather large, eh wot? It makes one wonder what all they might feed on... Fowl, perhaps?! One quivers at the very thought! Well, it'll be safe behind glass, no doubt. Quite safe, hoo",
+  "rarity": "****",
+  "render": "http://localhost:5000/api/render/fish/42"
+}

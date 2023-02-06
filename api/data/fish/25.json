@@ -1,0 +1,61 @@
+{
+  "id": 25,
+  "names": {
+    "en": "pond smelt",
+    "de": "Stint",
+    "es": "eperlano",
+    "fr": "éperlan",
+    "it": "éperlan",
+    "nl": "pingo",
+    "cn": "spiering",
+    "jp": "西太公魚",
+    "kr": "ワカサギ",
+    "ru": "빙어"
+  },
+  "seasonality": {
+    "northern": [
+      12,
+      1,
+      2
+    ],
+    "southern": [
+      6,
+      7,
+      8
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 400,
+    "CJ": 600
+  },
+  "blathers": "For many, thinking of pond smelt inevitably leads to thoughts of ice fishing in frozen rivers and lakes. Ice fishing involves making a round hole in the ice, dropping in your fishing line, and...waiting. Not to rain on anyone else's idea of fun, but...well, perhaps I shouldn't say anything.",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/25"
+}

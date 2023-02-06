@@ -1,0 +1,65 @@
+{
+  "id": 1,
+  "names": {
+    "en": "bitterling",
+    "de": "Bitterling",
+    "es": "amarguillo",
+    "fr": "bouvière",
+    "it": "bouvière",
+    "nl": "rodeo",
+    "cn": "bittervoorn",
+    "jp": "紅目鯽",
+    "kr": "タナゴ",
+    "ru": "납줄개"
+  },
+  "seasonality": {
+    "northern": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "southern": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 900,
+    "CJ": 1350
+  },
+  "blathers": "Bitterlings hide their eggs inside large bivalves—like clams—where the young can stay safe until grown. The bitterling isn't being sneaky. No, their young help keep the bivalve healthy by eating invading parasites! It's a wonderful bit of evolutionary deal making, don't you think? Each one keeping the other safe... Though eating parasites does not sound like a happy childhood... Is that why the fish is so bitter?",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/1"
+}

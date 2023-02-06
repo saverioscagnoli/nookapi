@@ -1,0 +1,79 @@
+{
+  "id": 80,
+  "names": {
+    "en": "coelacanth",
+    "de": "Quastenflosser",
+    "es": "celacanto",
+    "fr": "cœlacanthe",
+    "it": "cœlacanthe",
+    "nl": "celacanto",
+    "cn": "coelacant",
+    "jp": "矛尾魚",
+    "kr": "シーラカンス",
+    "ru": "실러캔스"
+  },
+  "seasonality": {
+    "northern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 6,
+  "sell_prices": {
+    "nook": 15000,
+    "CJ": 22500
+  },
+  "blathers": "The coelacanth is a deep-sea fish that has been around since the age of the dinosaurs. They were long thought extinct, so when living specimens were discovered, it was quite a shock! Now I'll just have to figure out where in the museum to display it— fish or fossils!",
+  "rarity": "****",
+  "render": "http://localhost:5000/api/render/fish/80"
+}

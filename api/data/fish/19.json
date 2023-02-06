@@ -1,0 +1,44 @@
+{
+  "id": 19,
+  "names": {
+    "en": "giant snakehead",
+    "de": "Schlangenkopf",
+    "es": "pez cabeza de serpiente",
+    "fr": "tête-de-serpent",
+    "it": "tête-de-serpent",
+    "nl": "pesce serpente",
+    "cn": "rode slangenkopvis",
+    "jp": "鱧魚",
+    "kr": "ライギョ",
+    "ru": "가물치"
+  },
+  "seasonality": {
+    "northern": [
+      6,
+      7,
+      8
+    ],
+    "southern": [
+      12,
+      1,
+      2
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "shadow_size": 5,
+  "sell_prices": {
+    "nook": 5500,
+    "CJ": 8250
+  },
+  "blathers": "The giant snakehead is quite a sight to behold, wot! One glance conjurs up visions of its namesake. This resilient creature can even find a home in the mud, where it is able to breathe. As a matter of fact, it dislikes cold weather, so during wintertime the mud serves as its temporary home. I hear that they eat anything that swims past their head. While odd, I feel a sense of owlship with them.",
+  "rarity": "***",
+  "render": "http://localhost:5000/api/render/fish/19"
+}

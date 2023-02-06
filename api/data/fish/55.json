@@ -1,0 +1,61 @@
+{
+  "id": 55,
+  "names": {
+    "en": "puffer fish",
+    "de": "Igelfisch",
+    "es": "pez erizo",
+    "fr": "poisson-porc-épic",
+    "it": "poisson-porc-épic",
+    "nl": "pesce istrice",
+    "cn": "egelvis",
+    "jp": "刺河豚",
+    "kr": "ハリセンボン",
+    "ru": "가시복"
+  },
+  "seasonality": {
+    "northern": [
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 250,
+    "CJ": 375
+  },
+  "blathers": "Like its cousin the blowfish, when the puffer fish feels threatened it inflates into a spiky balloon. The biggest difference between them is that the puffer fish is not deadly poisonous like its kin. So while it may look scary, the substantially reduced risk to life and limb makes it much better company.",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/55"
+}

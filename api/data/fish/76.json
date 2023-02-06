@@ -1,0 +1,63 @@
+{
+  "id": 76,
+  "names": {
+    "en": "suckerfish",
+    "de": "Schiffshalter",
+    "es": "rémora",
+    "fr": "rémora rayé",
+    "it": "rémora rayé",
+    "nl": "remora",
+    "cn": "zuigvis",
+    "jp": "吸盤魚",
+    "kr": "コバンザメ",
+    "ru": "빨판상어"
+  },
+  "seasonality": {
+    "northern": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 4,
+  "sell_prices": {
+    "nook": 1500,
+    "CJ": 2250
+  },
+  "blathers": "The suckerfish is a curious fish that likes to attach itself with its sucker mouth to larger marine animals. The benefit to the suckerfish is that it gets to eat smaller parasites and dead skin off the host's body. Amusingly, some people have used suckerfish on cords to catch large turtles with the fish's own suction! I imagine this practice is the cause of some awkward conversations between fish and turtle, eh wot",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/76"
+}

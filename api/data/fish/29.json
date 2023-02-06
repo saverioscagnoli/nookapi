@@ -1,0 +1,60 @@
+{
+  "id": 29,
+  "names": {
+    "en": "golden trout",
+    "de": "Goldforelle",
+    "es": "trucha dorada",
+    "fr": "truite dorée",
+    "it": "truite dorée",
+    "nl": "trota dorata",
+    "cn": "goudforel",
+    "jp": "金鱒",
+    "kr": "ゴールデントラウト",
+    "ru": "금송어"
+  },
+  "seasonality": {
+    "northern": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "southern": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ]
+  },
+  "time_day": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 15000,
+    "CJ": 22500
+  },
+  "blathers": "The golden trout is a beautifully colored fish that can only live in very clean waters. They are difficult to come across since they are found only in high mountain streams. As a side note, I find it much easier to appreciate fish that aren't such prima donnas about everything.",
+  "rarity": "****",
+  "render": "http://localhost:5000/api/render/fish/29"
+}

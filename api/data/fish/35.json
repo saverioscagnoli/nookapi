@@ -1,0 +1,48 @@
+{
+  "id": 35,
+  "names": {
+    "en": "nibble fish",
+    "de": "Saugbarbe",
+    "es": "pez doctor",
+    "fr": "poisson docteur",
+    "it": "poisson docteur",
+    "nl": "garra rufa",
+    "cn": "knabbelvisje",
+    "jp": "溫泉醫生魚",
+    "kr": "ドクターフィッシュ",
+    "ru": "닥터피시"
+  },
+  "seasonality": {
+    "northern": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 1500,
+    "CJ": 2250
+  },
+  "blathers": "Nibble fish are best known for their use in a certain skin treatment. This treatment has apparently been used for thousands of years. I have never experienced said treatment because they eat your dead skin with their little toothless mouths! Can you imagine anything so repellent?! Please don't ask me any follow-up questions. Hoo.",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/35"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 45,
+  "names": {
+    "en": "saddled bichir",
+    "de": "Flösselhecht",
+    "es": "bichir ensillado",
+    "fr": "bichir",
+    "it": "bichir",
+    "nl": "polipteride",
+    "cn": "kwastsnoek",
+    "jp": "恩氏多鰭魚",
+    "kr": "エンドリケリー",
+    "ru": "엔드리케리"
+  },
+  "seasonality": {
+    "northern": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southern": [
+      12,
+      1,
+      2,
+      3
+    ]
+  },
+  "time_day": [
+    21,
+    22,
+    23,
+    0,
+    1,
+    2,
+    3
+  ],
+  "shadow_size": 4,
+  "sell_prices": {
+    "nook": 4000,
+    "CJ": 6000
+  },
+  "blathers": "What an elegant specimen you've found. The saddled bichir has a look entirely its own. They have poor eyesight, so they use their fine-tuned sniffers to seek out prey. Can you imagine relying solely on your sense of smell to find food? And if one nostril became clogged, would you be unable to tell how far away the scent was?",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/45"
+}

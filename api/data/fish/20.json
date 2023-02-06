@@ -1,0 +1,62 @@
+{
+  "id": 20,
+  "names": {
+    "en": "bluegill",
+    "de": "Sonnenbarsch",
+    "es": "pez sol",
+    "fr": "crapet",
+    "it": "crapet",
+    "nl": "pesce persico",
+    "cn": "zonnebaars",
+    "jp": "藍鰓太陽魚",
+    "kr": "ブルーギル",
+    "ru": "블루길"
+  },
+  "seasonality": {
+    "northern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southern": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "time_day": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "shadow_size": 2,
+  "sell_prices": {
+    "nook": 180,
+    "CJ": 270
+  },
+  "blathers": "The bluegill is incredibly common. A bit too common, depending upon where you are. They eat anything that fits in their mouths and are highly adaptable. The bane of fishermen in some areas, bluegill is often the only fish to be caught! But looking in its wee beady eyes, I must say I see no ill will in it...",
+  "rarity": "*",
+  "render": "http://localhost:5000/api/render/fish/20"
+}

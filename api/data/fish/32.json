@@ -1,0 +1,57 @@
+{
+  "id": 32,
+  "names": {
+    "en": "king salmon",
+    "de": "Königslachs",
+    "es": "salmón real",
+    "fr": "saumon roi",
+    "it": "saumon royal",
+    "nl": "salmone reale",
+    "cn": "chinookzalm",
+    "jp": "帝王鮭",
+    "kr": "キングサーモン",
+    "ru": "왕연어"
+  },
+  "seasonality": {
+    "northern": [
+      9
+    ],
+    "southern": [
+      3
+    ]
+  },
+  "time_day": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "shadow_size": 6,
+  "sell_prices": {
+    "nook": 1800,
+    "CJ": 2700
+  },
+  "blathers": "The king salmon didn't get its name for nothing.This stately fish can weigh in at up to 130 pounds! It's clear why it's referred to as the king of salmon. I imagine even the mightiest net can catch no more than a few at a time.I must say it's a miracle to me that you didn't get dragged out to sea by this one, wot!",
+  "rarity": "**",
+  "render": "http://localhost:5000/api/render/fish/32"
+}
