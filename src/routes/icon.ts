@@ -51,4 +51,27 @@ iconRoute.get("/bug/:id", (req, res) => {
   res.send(icon);
 });
 
+iconRoute.get("/sea-creature/:id", (req, res) => {
+  let icon: Buffer;
+  if (isName(req.params.id)) {
+    let name = req.params.id.toLowerCase();
+    let i = jsonBox.sea_creature.findIndex(s => s.names.en == name);
+    icon = iconBox.sea_creature[i] as unknown as Buffer;
+  } else {
+    let i = jsonBox.sea_creature.findIndex(s => s.id == +req.params.id);
+    icon = iconBox.sea_creature[i] as unknown as Buffer;
+  }
+  if (!icon) {
+    res.setHeader("Content-Type", "application/json");
+    res
+      .status(404)
+      .send({
+        error: { code: 404, message: "that sea creature does not exist!" }
+      });
+    return;
+  }
+  res.setHeader("Content-Type", "image/png");
+  res.send(icon);
+});
+
 export { iconRoute };

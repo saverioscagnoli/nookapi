@@ -1,10 +1,10 @@
-import { Bug, DataType, Fish } from "../typings";
+import { Bug, DataType, Fish, SeaCreature } from "../typings";
 
 export class DataBox implements DataType {
   public art: any[];
   public bug: Bug[];
   public fish: Fish[];
-  public sea_creature: any[];
+  public sea_creature: SeaCreature[];
   public song: any[];
   public villager: any[];
   public shadow_size?: any[];

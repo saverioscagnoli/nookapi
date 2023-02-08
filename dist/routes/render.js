@@ -53,3 +53,26 @@ renderRoute.get("/bug/:id", (req, res) => {
     res.setHeader("Content-Type", "image/png");
     res.send(render);
 });
+renderRoute.get("/sea-creature/:id", (req, res) => {
+    let render;
+    if ((0, utils_1.isName)(req.params.id)) {
+        let name = req.params.id.toLowerCase();
+        let i = data_1.jsonBox.sea_creature.findIndex(s => s.names.en == name);
+        render = renderBox.sea_creature[i];
+    }
+    else {
+        let i = data_1.jsonBox.sea_creature.findIndex(s => s.id == +req.params.id);
+        render = renderBox.sea_creature[i];
+    }
+    if (!render) {
+        res.setHeader("Content-Type", "application/json");
+        res
+            .status(404)
+            .send({
+            error: { code: 404, message: "that sea creature does not exist!" }
+        });
+        return;
+    }
+    res.setHeader("Content-Type", "image/png");
+    res.send(render);
+});

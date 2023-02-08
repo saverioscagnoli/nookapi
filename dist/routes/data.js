@@ -47,3 +47,23 @@ dataRoute.get("/bug/:id", (req, res) => {
     }
     res.send(bug);
 });
+dataRoute.get("/sea-creature/:id", (req, res) => {
+    let sea;
+    if ((0, utils_1.isName)(req.params.id)) {
+        let name = req.params.id.toLowerCase();
+        sea = jsonBox.sea_creature.find(s => s.names.en == name);
+    }
+    else {
+        sea = jsonBox.sea_creature.find(s => s.id == +req.params.id);
+    }
+    if (!sea) {
+        res.setHeader("Content-Type", "application/json");
+        res
+            .status(404)
+            .send({
+            error: { code: 404, message: "that sea creature does not exist!" }
+        });
+        return;
+    }
+    res.send(sea);
+});

@@ -4,3 +4,4 @@ const tslib_1 = require("tslib");
 tslib_1.__exportStar(require("./DataType"), exports);
 tslib_1.__exportStar(require("./Fish"), exports);
 tslib_1.__exportStar(require("./Bug"), exports);
+tslib_1.__exportStar(require("./SeaCreature"), exports);
