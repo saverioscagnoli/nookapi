@@ -4,22 +4,22 @@ import { DataBox } from "../structs";
 import { isName, recursiveSearch } from "../utils";
 import { jsonBox } from "./data";
 
-const renderRoute = express.Router();
-const renderBox = new DataBox();
+const iconRoute = express.Router();
+const iconBox = new DataBox();
 
-recursiveSearch(PATHS.RENDER, renderBox, { parse: false, encoding: null });
+recursiveSearch(PATHS.ICON, iconBox, { parse: false, encoding: null });
 
-renderRoute.get("/fish/:id", (req, res) => {
-  let render: Buffer;
+iconRoute.get("/fish/:id", (req, res) => {
+  let icon: Buffer;
   if (isName(req.params.id)) {
     let name = req.params.id.toLowerCase();
     let i = jsonBox.fish.findIndex(f => f.names.en == name);
-    render = renderBox.fish[i] as unknown as Buffer;
+    icon = iconBox.fish[i] as unknown as Buffer;
   } else {
     let i = jsonBox.fish.findIndex(f => f.id == +req.params.id);
-    render = renderBox.fish[i] as unknown as Buffer;
+    icon = iconBox.fish[i] as unknown as Buffer;
   }
-  if (!render) {
+  if (!icon) {
     res.setHeader("Content-Type", "application/json");
     res
       .status(404)
@@ -27,20 +27,20 @@ renderRoute.get("/fish/:id", (req, res) => {
     return;
   }
   res.setHeader("Content-Type", "image/png");
-  res.send(render);
+  res.send(icon);
 });
 
-renderRoute.get("/bug/:id", (req, res) => {
-  let render: Buffer;
+iconRoute.get("/bug/:id", (req, res) => {
+  let icon: Buffer;
   if (isName(req.params.id)) {
     let name = req.params.id.toLowerCase();
     let i = jsonBox.bug.findIndex(b => b.names.en == name);
-    render = renderBox.bug[i] as unknown as Buffer;
+    icon = iconBox.bug[i] as unknown as Buffer;
   } else {
     let i = jsonBox.bug.findIndex(b => b.id == +req.params.id);
-    render = renderBox.bug[i] as unknown as Buffer;
+    icon = iconBox.bug[i] as unknown as Buffer;
   }
-  if (!render) {
+  if (!icon) {
     res.setHeader("Content-Type", "application/json");
     res
       .status(404)
@@ -48,7 +48,7 @@ renderRoute.get("/bug/:id", (req, res) => {
     return;
   }
   res.setHeader("Content-Type", "image/png");
-  res.send(render);
+  res.send(icon);
 });
 
-export { renderRoute };
+export { iconRoute };

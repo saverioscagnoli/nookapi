@@ -29,3 +29,21 @@ dataRoute.get("/fish/:id", (req, res) => {
     }
     res.send(fish);
 });
+dataRoute.get("/bug/:id", (req, res) => {
+    let bug;
+    if ((0, utils_1.isName)(req.params.id)) {
+        let name = req.params.id.toLowerCase();
+        bug = jsonBox.bug.find(b => b.names.en == name);
+    }
+    else {
+        bug = jsonBox.bug.find(b => b.id == +req.params.id);
+    }
+    if (!bug) {
+        res.setHeader("Content-Type", "application/json");
+        res
+            .status(404)
+            .send({ error: { code: 404, message: "that bug does not exist!" } });
+        return;
+    }
+    res.send(bug);
+});

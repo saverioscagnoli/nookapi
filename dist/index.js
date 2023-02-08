@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express_1.default.json());
 app.use("/api/data", routes_1.dataRoute);
 app.use("/api/render", routes_1.renderRoute);
+app.use("/api/icon", routes_1.iconRoute);
 app.get("/", (req, res) => {
     res.send("Welcome to the nOOk-api!");
 });

@@ -2,17 +2,16 @@ import { Day } from "./Day";
 import { Hemisphere } from "./Hemisphere";
 import { Names } from "./Names";
 
-export interface Fish {
+export interface Bug {
   id: number;
   names: Names;
   seasonality: {
-    northern: Hemisphere;
+    norhern: Hemisphere;
     southern: Hemisphere;
   };
-  shadow_size: number | string;
   sell_prices: {
     nook: number;
-    CJ: number;
+    flick: number;
   };
   rarity: string;
   day: Day;
