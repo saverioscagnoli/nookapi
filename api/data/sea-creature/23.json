@@ -1,0 +1,62 @@
+{
+  "id": 23,
+  "names": {
+    "en": "firefly squid",
+    "de": "leuchtkalmar",
+    "es": "vuurvliegpijlinktvis",
+    "fr": "calamar luciérnaga",
+    "it": "calmar luciole",
+    "nl": "calamaro lucciola",
+    "cn": "萤火鱿",
+    "jp": "ホタルイカ",
+    "kr": "반딧불오징어",
+    "ru": "сверкающий кальмар"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-jun",
+      "indices": "3-6",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "southern": {
+      "name": "sep-dec",
+      "indices": "9-12",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "shadow_size": 1,
+  "price": 1400,
+  "speed": 2,
+  "day": {
+    "h12": "9pm-4am",
+    "h24": "21-4",
+    "hours_array": [
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "phrases": {
+    "catch": "I got a firefly squid! More like a glowswim squid.",
+    "blathers": "The firefly squid is a wee migratory squid that barely reaches three inches in length. And though they usually live in deep water, they do venture to the coast to spawn. Like their firefly namesakes, these sparkling squid emit a blue bioluminescent glow. This glow may be used to threaten enemies, communicate with friends, or, perhaps, to lure food in. Truth be told, we do not know for sure why the firefly squid glows. We remain in the dark, as they say."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/23",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/23"
+  }
+}

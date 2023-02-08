@@ -1,0 +1,82 @@
+{
+  "id": 26,
+  "names": {
+    "en": "snow crab",
+    "de": "schneekrabbe",
+    "es": "sneeuwkrab",
+    "fr": "cangrejo de nieve",
+    "it": "crabe des neiges",
+    "nl": "granchio della neve",
+    "cn": "松叶蟹",
+    "jp": "ズワイガニ",
+    "kr": "대게",
+    "ru": "краб-стригун"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "southern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  "shadow_size": 4,
+  "price": 6000,
+  "speed": 4,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a snow crab! It's giving me the cold shoulder.",
+    "blathers": "The snow crab truly lives up to its name, wot wot. They are most often found in cold northern seas. Some have even been discovered living in the Arctic Ocean! Indeed, snow crab prefer to live in deep water that never gets more than three degrees above freezing. Hooooo. Just thinking about their icy environs is giving me the chills!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/26",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/26"
+  }
+}

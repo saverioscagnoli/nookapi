@@ -1,0 +1,72 @@
+{
+  "id": 22,
+  "names": {
+    "en": "vampire squid",
+    "de": "vampirtintenfisch",
+    "es": "vampierinktvis",
+    "fr": "calamar vampiro",
+    "it": "vampire des abysses",
+    "nl": "calamaro vampiro",
+    "cn": "吸血鬼乌贼",
+    "jp": "コウモリダコ",
+    "kr": "흡혈오징어",
+    "ru": "адский кальмар-вампир"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-aug",
+      "indices": "5-8",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "nov-feb",
+      "indices": "11-2",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "price": 10000,
+  "speed": 5,
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "phrases": {
+    "catch": "I got a vampire squid! A lot was at stake.",
+    "blathers": "Beware the vampire squid, I say! This eight-armed deep-sea monster is out to drink your blood! Hoo hoo, ha ha! I only jest! Ahem! The Vampire Squid does, in fact, live deep in the ocean where almost no light pervades. But while it looks like it could nibble on your neck...it nibbles on the bits of dead plankton and algae instead. By all accounts, the vampire squid is a a gentle sort who squirts bioluminecesant goo at foes. Sp, how did it get the eerie official name \"Vampyroteuthis inernalis\"? That means \"vampire squid from the heck,\" you see. The problem is that the squid's \"cloak.\" Its arms are webbed with velvet-red skin and lined with toothy spikes. Plainly put, this genial squid looks for all the world like a vampire who went for a swim."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/22",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/22"
+  }
+}

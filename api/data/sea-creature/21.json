@@ -1,0 +1,82 @@
+{
+  "id": 21,
+  "names": {
+    "en": "umbrella octopus",
+    "de": "regenschirm-oktopus",
+    "es": "depressa-inktvis",
+    "fr": "pulpo paraguas",
+    "it": "pieuvre parapluie",
+    "nl": "polpo ombrello",
+    "cn": "扁面蛸",
+    "jp": "メンダコ",
+    "kr": "우무문어",
+    "ru": "опистотейтис"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-may~sep-nov",
+      "indices": "3-5~9-11",
+      "indices_array": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "mar-may~sep-nov",
+      "indices": "3-5~9-11",
+      "indices_array": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "shadow_size": 2,
+  "price": 6000,
+  "speed": 4,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got an umbrella octopus! Too bad I'm already soaked.",
+    "blathers": "My feathers, could there be a more adorable sea creature than the umbrella octopus? I daresay not! These deep-sea octopuses are on the smallish side and use the cutest ear-like fins to flutter about. Meanwhile, it's the web stretched between their tentacles that gives them their name. Hoo, it's true! With arms stretched wide, they look for all the world like an umbrella! Though surely the last thing the umbrella octopus wants...is to stay dry."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/21",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/21"
+  }
+}

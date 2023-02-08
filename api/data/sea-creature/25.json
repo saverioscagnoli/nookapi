@@ -1,0 +1,84 @@
+{
+  "id": 25,
+  "names": {
+    "en": "dungeness crab",
+    "de": "pazifik-taschenkrebs",
+    "es": "dungeness-krab",
+    "fr": "buey del pacífico",
+    "it": "crabe de dungeness",
+    "nl": "granciporro",
+    "cn": "珍宝蟹",
+    "jp": "ダンジネスクラブ",
+    "kr": "던지니스크랩",
+    "ru": "данженесский краб"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "nov-may",
+      "indices": "11-5",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "southern": {
+      "name": "may-nov",
+      "indices": "5-11",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "price": 1900,
+  "speed": 3,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a Dungeness crab! Dun dun duuuun...geness.",
+    "blathers": "The Dungeness crab wears a pretty fan-shaped shell that's often done up in purple hues. But eye-catching colors aside, this fellow can be surprisingly hard to spot! That's because the Dungeness crab is something of an expert hider. When scared, it plays a nifty trick! That is, it buries itself beneath the sand with impressive speed. \"Now you see me, now you don't,\" it says as it vanishes before your very eyes!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/25",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/25"
+  }
+}

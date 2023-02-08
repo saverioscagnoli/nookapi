@@ -1,0 +1,80 @@
+{
+  "id": 40,
+  "names": {
+    "en": "venus' flower basket",
+    "de": "gießkannenschwamm",
+    "es": "venusmandje",
+    "fr": "canasta de flores de venus",
+    "it": "corbeille de vénus",
+    "nl": "cestello di venere",
+    "cn": "偕老同穴",
+    "jp": "カイロウドウケツ",
+    "kr": "해로동혈",
+    "ru": "корзинка венеры"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "oct-feb",
+      "indices": "10-2",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ]
+    },
+    "southern": {
+      "name": "apr-aug",
+      "indices": "4-8",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "price": 5000,
+  "speed": 4,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a Venus' flower basket! Why was she picking flowers here?",
+    "blathers": "The Venus' flower basket looks like an otherworldly creature one would find on an alien planet. But it is instead a remarkable sea sponge found in the deepest parts of the ocean. Its body is composed of silica and looks like a sculpture or, perhaps, a vase made of glassy mesh. I daresay Venus' flower basket is one of nature's most impressive works of art."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/40",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/40"
+  }
+}

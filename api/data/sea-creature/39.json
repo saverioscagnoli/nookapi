@@ -1,0 +1,68 @@
+{
+  "id": 39,
+  "names": {
+    "en": "flatworm",
+    "de": "meerstrudelwurm",
+    "es": "platworm",
+    "fr": "gusano políclado",
+    "it": "ver plat",
+    "nl": "verme piatto",
+    "cn": "海扁虫",
+    "jp": "ヒラムシ",
+    "kr": "납작벌레",
+    "ru": "плоский червь"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "aug-sep",
+      "indices": "8-9",
+      "indices_array": [
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "feb-mar",
+      "indices": "2-3",
+      "indices_array": [
+        2,
+        3
+      ]
+    }
+  },
+  "shadow_size": 1,
+  "price": 700,
+  "speed": 1,
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "phrases": {
+    "catch": "I got a flatworm! Guess it forgot its spareworm.",
+    "blathers": "Flatworms are flat creatures, and while some types look like sea slugs, they have little else in common. Some types are venomous and produce a poison similar to the kind blowfish are famous for. Flatworms are hermaphrodites and mate by fighting to determine the loser, who then bears the eggs."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/39",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/39"
+  }
+}

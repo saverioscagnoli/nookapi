@@ -1,0 +1,94 @@
+{
+  "id": 8,
+  "names": {
+    "en": "sea anemone",
+    "de": "seeanemone",
+    "es": "zeeanemoon",
+    "fr": "anémona",
+    "it": "anémone de mer",
+    "nl": "anemone di mare",
+    "cn": "海葵",
+    "jp": "イソギンチャク",
+    "kr": "말미잘",
+    "ru": "актиния"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "shadow_size": 4,
+  "price": 500,
+  "speed": 0,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a sea anemone! The enemy of my anemone is my afrenome!",
+    "blathers": "Medusa herself would be impressed by the sea anemone. This pretty predator loves to wave its colorful flowing locks about. But these gorgeous tresses are, in fact, deadly tentacles surrounding a hungry mouth! Triggered by the slightest touch, these tentacles harpoon victims with neurotoxin. The sea anemone then pulls the helpless, hapless prey into its mouth for a spot of lunch! I say, let this be a lesson! Never, ever make an enemy... out of an anemone!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/8",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/8"
+  }
+}

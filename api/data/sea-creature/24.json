@@ -1,0 +1,82 @@
+{
+  "id": 24,
+  "names": {
+    "en": "gazami crab",
+    "de": "gazami-krabbe",
+    "es": "japanse blauwe krab",
+    "fr": "cangrejo gazami",
+    "it": "crabe gazami",
+    "nl": "granchio gazami",
+    "cn": "梭子蟹",
+    "jp": "ガザミ",
+    "kr": "꽃게",
+    "ru": "газами-краб"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jun-nov",
+      "indices": "6-11",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "dec-may",
+      "indices": "12-5",
+      "indices_array": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "price": 2200,
+  "speed": 3,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a gazami crab! What a gripping find!",
+    "blathers": "The gazami crab may be better known by its more descriptive name… the Japanese blue crab. It gets its name from the blue tint sometimes found in its shell and legs. Its paddle-like rear legs are what help it to swim freely and quickly through the water. Of course, this gazami crab couldn't swim enough to get away from you!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/24",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/24"
+  }
+}

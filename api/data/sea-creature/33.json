@@ -1,0 +1,60 @@
+{
+  "id": 33,
+  "names": {
+    "en": "spiny lobster",
+    "de": "languste",
+    "es": "langoest",
+    "fr": "langosta espinosa",
+    "it": "langouste",
+    "nl": "aragosta mediterranea",
+    "cn": "伊势龙虾",
+    "jp": "イセエビ",
+    "kr": "닭새우",
+    "ru": "колючий лангуст"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "oct-dec",
+      "indices": "10-12",
+      "indices_array": [
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "apr-jun",
+      "indices": "4-6",
+      "indices_array": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "shadow_size": 4,
+  "price": 5000,
+  "speed": 4,
+  "day": {
+    "h12": "9pm-4am",
+    "h24": "21-4",
+    "hours_array": [
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "phrases": {
+    "catch": "I got a spiny lobster! It's got a lot of backbone!",
+    "blathers": "It is the spiny lobster's lengthy antennae that help set it apart from other lobsters. Those two antennae can grow twice as long as the lobster's own body! And what a clever crustacean it is, having found a way to use those antennae as a means of defense. When the spiny lobster senses danger, it rubs its antennae across its exoskeleton. The horrid screeching sound frightens predators away! If someone scratched nails across a chalkboard in your direction, I daresay you'd run too!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/33",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/33"
+  }
+}

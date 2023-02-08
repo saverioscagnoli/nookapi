@@ -1,0 +1,74 @@
+{
+  "id": 29,
+  "names": {
+    "en": "spider crab",
+    "de": "riesenkrabbe",
+    "es": "reuzenkrab",
+    "fr": "cangrejo gigante japonés",
+    "it": "crabe-araignée géant",
+    "nl": "granchio gig. del giappone",
+    "cn": "高脚蟹",
+    "jp": "タカアシガニ",
+    "kr": "키다리게",
+    "ru": "краб-паук"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-apr",
+      "indices": "3-4",
+      "indices_array": [
+        3,
+        4
+      ]
+    },
+    "southern": {
+      "name": "sep-oct",
+      "indices": "9-10",
+      "indices_array": [
+        9,
+        10
+      ]
+    }
+  },
+  "shadow_size": 5,
+  "price": 12000,
+  "speed": 5,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a spider crab! Water bugs can rest easy.",
+    "blathers": "Hoooot hooot, I do so hope to not hyperventilate as I regale you with the spider crab's qualities. But I would be remiss if I did not point out that this, the largest crab on earth... looks like a GIANT SPIDER! Arachnophobia aside... this crab is a magnificent creature to be sure. Though they can grow up to 12 feet from claw to claw and weigh up to 40 pounds, they're said to be docile. In fact, these gentle giants love to hide, attaching seaweed and sponges to their shell as camouflage. My feathers, if only I could unsee the SPIDER in the spider crab... I'm sure I'd find it charming as can be."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/29",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/29"
+  }
+}

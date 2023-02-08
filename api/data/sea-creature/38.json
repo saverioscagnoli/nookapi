@@ -1,0 +1,76 @@
+{
+  "id": 38,
+  "names": {
+    "en": "spotted garden eel",
+    "de": "röhrenaal",
+    "es": "gevlekte buisaal",
+    "fr": "anguila jardinera",
+    "it": "anguille de jardin",
+    "nl": "anguilla di giardino",
+    "cn": "花园鳗",
+    "jp": "チンアナゴ",
+    "kr": "가든일",
+    "ru": "леопардовый угорь"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "shadow_size": 2,
+  "price": 1100,
+  "speed": 2,
+  "day": {
+    "h12": "4am-9pm",
+    "h24": "4-21",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "phrases": {
+    "catch": "I got a spotted garden eel! Was it un-spotted before I saw it?",
+    "blathers": "The spotted garden eel is a small eel-shaped fish that loves to burrow in the sandy ocean floor. These silly things are known for popping their heads out of the sand to nibble on plankton drifting by. Some say this makes them look like plants sprouting in a garden...hence the name spotted garden eel. But I think they look more like prairie dogs peeking out of desert hidey-holes. \"Prairie eels\" has a lovely ring, don't you think?"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/38",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/38"
+  }
+}

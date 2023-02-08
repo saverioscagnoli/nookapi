@@ -1,0 +1,94 @@
+{
+  "id": 20,
+  "names": {
+    "en": "octopus",
+    "de": "oktopus",
+    "es": "octopus",
+    "fr": "pulpo",
+    "it": "pieuvre",
+    "nl": "polpo",
+    "cn": "章鱼",
+    "jp": "タコ",
+    "kr": "문어",
+    "ru": "осьминог"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "price": 1200,
+  "speed": 2,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got an octopus! It can give four hugs at once!",
+    "blathers": "With its eight limbs, three hearts, and surprisingly big brain, the octopus is quite the wonder. It is also an escape artist like no other! You see, the octopus has specialized skin cells that can change color and texture with lightening speed. Thus it can look for all the world like a patch of seabed one minute...and a pile of rocks the next! But the deception doesn't stop there, wot wot. When attacked by a predator, the octopus releases a cloud of ink and -POOF- makes its escape. Let's just call the octopus what it is, shall we? The ninja of the deep!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/20",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/20"
+  }
+}

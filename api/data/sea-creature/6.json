@@ -1,0 +1,80 @@
+{
+  "id": 6,
+  "names": {
+    "en": "sea urchin",
+    "de": "seeigel",
+    "es": "zee-egel",
+    "fr": "erizo de mar",
+    "it": "oursin",
+    "nl": "riccio di mare",
+    "cn": "海胆",
+    "jp": "ウニ",
+    "kr": "성게",
+    "ru": "морской еж"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-sep",
+      "indices": "5-9",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "nov-mar",
+      "indices": "11-3",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "shadow_size": 2,
+  "price": 1700,
+  "speed": 2,
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "phrases": {
+    "catch": "I got a sea urchin! Wasn't even 'earchin for it.",
+    "blathers": "Ah, the sea urchin...the unabashed goth of the ocean floor! Indeed, with its mane of dark-hued spikes, it looks for all the world as if it might front a punk-rock band. Perhaps its more demure relatives—the sea cucumber and the sea star—disapprove of its outlandish look? It would certainly explain why sea stars gobble up sea urchins every chance they get! But worry not for our spiky friend. Its venomous spines are an effective deterrent to many a predator."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/6",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/6"
+  }
+}

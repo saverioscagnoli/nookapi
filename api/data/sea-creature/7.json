@@ -1,0 +1,74 @@
+{
+  "id": 7,
+  "names": {
+    "en": "slate pencil urchin",
+    "de": "griffelseeigel",
+    "es": "griffelzee-egel",
+    "fr": "erizo lápiz de pizarra",
+    "it": "oursin crayon",
+    "nl": "riccio matita",
+    "cn": "石笔海胆",
+    "jp": "パイプウニ",
+    "kr": "연필성게",
+    "ru": "грифельный морск. еж"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-sep",
+      "indices": "5-9",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "nov-mar",
+      "indices": "11-3",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "price": 2000,
+  "speed": 3,
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "phrases": {
+    "catch": "I got a slate pencil urchin! Its handwriting is gorgeous.",
+    "blathers": "Slate Pencil Urchins are a type of sea urchin topped with thick, rounded spines that resemble sticks of chalk. These urchins' spines protect them not only from predators but from violent waves as well. Found in coral reefs, they're usually bright red, brown, or purple in color. For all those bright colors, one would think the slate pencil urchin to be deadly. But all those pretty colors, it seems, are just a pretty show."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/sea-creature/7",
+    "icon": "https://nook-api.vercel.app/api/icon/sea-creature/7"
+  }
+}
