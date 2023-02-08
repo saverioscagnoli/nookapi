@@ -1,0 +1,71 @@
+{
+  "id": 20,
+  "names": {
+    "en": "cricket",
+    "de": "grille",
+    "es": "grillo común",
+    "fr": "grillon des prés",
+    "it": "grillo",
+    "nl": "krekel",
+    "cn": "蟋蟀",
+    "jp": "コオロギ",
+    "kr": "귀뚜라미",
+    "ru": "сверчок"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "sep-nov",
+      "indices": "9-11",
+      "indices_array": [
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "mar-may",
+      "indices": "3-5",
+      "indices_array": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 130,
+    "flick": 195
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "5pm-8am",
+    "h24": "17-8",
+    "hours_array": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a cricket! What a chirp thrill!",
+    "blathers": "I say, where shall I start with the cricket? Well, to begin with, they are mostly nocturnal creatures. And for that you day-loving diurnal types should be grateful! Hoo! It means you don't have to lay eyes upon their prickly legs or overly long antennae like us night owls! Of course, crickets are best known for the chirping sound they make by rubbing their wings together. Some find the noise lovely to listen to. Alas, it only serves to remind me of another unpleasant fact... Which is to say...you will find a cricket's ears right next to its knees! I've gone weak in the knees at the mention of it!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/20",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/20"
+  }
+}

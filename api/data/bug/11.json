@@ -1,0 +1,77 @@
+{
+  "id": 11,
+  "names": {
+    "en": "rajah brooke's birdwing",
+    "de": "troides brookiana",
+    "es": "mariposa alas de brooke",
+    "fr": "troides brookiana",
+    "it": "farfalla raja brooke",
+    "nl": "rajah brooke-vlinder",
+    "cn": "红颈凤蝶",
+    "jp": "アカエリトリバネアゲハ",
+    "kr": "붉은목도리비단나비",
+    "ru": "трогоноптера брука"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-sep~dec-feb",
+      "indices": "4-9~12-2",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        1,
+        2
+      ]
+    },
+    "southern": {
+      "name": "jun-aug~oct-mar",
+      "indices": "6-8~10-3",
+      "indices_array": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 2500,
+    "flick": 3750
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a Rajah Brooke's birdwing! Nothing else I'd rajah be doing!",
+    "blathers": "Did you know that the repulsive Rajah Brooke's birdwing loves to luxuriate in hot-springs water? It's true! Hoo! The males gather in groups to sip the moisture while the females hide in jungle trees. And though they dress to impress in red and green, these fluttering fiends are not just stylish... They're also quite malicious! Their little larvae pack a poisonous punch that's supposed to protect them from predators... But I suspect more diabolical designs."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/11",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/11"
+  }
+}

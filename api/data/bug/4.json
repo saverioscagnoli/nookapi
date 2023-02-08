@@ -1,0 +1,73 @@
+{
+  "id": 4,
+  "names": {
+    "en": "peacock butterfly",
+    "de": "ritterfalter",
+    "es": "mariposa bianor",
+    "fr": "papilio bianor",
+    "it": "farfalla vanessa io",
+    "nl": "pauwenpage",
+    "cn": "乌鸦凤蝶",
+    "jp": "カラスアゲハ",
+    "kr": "제비나비",
+    "ru": "бианор"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-jun",
+      "indices": "3-6",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "southern": {
+      "name": "sep-dec",
+      "indices": "9-12",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 2500,
+    "flick": 3750
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "4am-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying near hybrid flowers",
+  "phrases": {
+    "catch": "I caught a peacock butterfly! Now it's my turn to strut my stuff!",
+    "blathers": "Pretty as a peacock? Bah, I say! The wings of the peacock butterfly may have a pattern similar to that of the beautiful bird... But its forewings are also often covered in a dark, velvety hair! You heard right! HAIRY wings! A hair-raising revelation indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/4",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/4"
+  }
+}

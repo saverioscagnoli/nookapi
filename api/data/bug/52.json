@@ -1,0 +1,63 @@
+{
+  "id": 52,
+  "names": {
+    "en": "scarab beetle",
+    "de": "goldskarabäus",
+    "es": "escarabajo oro",
+    "fr": "scarabée",
+    "it": "chrysina resplendens",
+    "nl": "scarabee",
+    "cn": "宝石金龟",
+    "jp": "プラチナコガネ",
+    "kr": "보석풍뎅이",
+    "ru": "золотой скарабей"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 10000,
+    "flick": 15000
+  },
+  "rarity": "***",
+  "day": {
+    "h12": "11pm-8am",
+    "h24": "23-8",
+    "hours_array": [
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a scarab beetle! It's just a dung beetle with better hobbies.",
+    "blathers": "Collectors consider the scarab beetle quite the prize, thanks to its shiny metallic shell. But did you know this bug has no nose and uses its antenna to sense smells instead? In fact, the scarab beetle's plated antenna are quite unique and set it apart from other beetles. But ALL antennae are equally awful in my book."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/52",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/52"
+  }
+}

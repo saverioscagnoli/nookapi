@@ -1,0 +1,77 @@
+{
+  "id": 2,
+  "names": {
+    "en": "yellow butterfly",
+    "de": "zitronenfalter",
+    "es": "mariposa colias",
+    "fr": "citrin",
+    "it": "farfalla gialla",
+    "nl": "citroenvlinder",
+    "cn": "斑缘点粉蝶",
+    "jp": "モンキチョウ",
+    "kr": "노랑나비",
+    "ru": "желтушка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-jun~sep-oct",
+      "indices": "3-6~9-10",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "sep-dec~mar-apr",
+      "indices": "9-12~3-4",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        3,
+        4
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 160,
+    "flick": 240
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "4am-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a yellow butterfly! Shouldn't all BUTTERflies be yellow?",
+    "blathers": "Allow me to enlighten you... The yellow butterfly is named for its yellow wings. Need I say more? If I must, then allow me to note that the female yellow butterfly can lay up to 600 eggs at a time! Bleech! And their creepy crawly caterpillars just love to chomp on clover plants. A recipe for disaster, I say. Just imagine reaching for a four-leaf clover, only to touch a larva instead! Yuck! The worst of luck!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/2",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/2"
+  }
+}

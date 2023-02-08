@@ -1,0 +1,71 @@
+{
+  "id": 79,
+  "names": {
+    "en": "tarantula",
+    "de": "vogelspinne",
+    "es": "tarántula",
+    "fr": "tarentule",
+    "it": "tarantola",
+    "nl": "vogelspin",
+    "cn": "狼蛛",
+    "jp": "タランチュラ",
+    "kr": "타란툴라",
+    "ru": "паук-птицеед"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "southern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 8000,
+    "flick": 12000
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "7pm-4am",
+    "h24": "19-4",
+    "hours_array": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a tarantula! This situation just got hairy!",
+    "blathers": "As giant spiders go, the tarantula is said to be quite docile. But have you ever seen such foul fuzziness?! It is a fact, tarantulas have barbed belly hair! I say again...BARBED. BELLY. HAIR! These awful arachnids let loose their spiky, itchy hairs to protect themselves from predators. But seeing how tarantulas also prey on frogs, mice, and even birds, one must ask... Who needs protecting from whom?! Hoo! Who indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/79",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/79"
+  }
+}

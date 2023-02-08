@@ -1,0 +1,85 @@
+{
+  "id": 6,
+  "names": {
+    "en": "paper kite butterfly",
+    "de": "weiße baumnymphe",
+    "es": "mariposa cometa de papel",
+    "fr": "grand planeur",
+    "it": "farfalla carta di riso",
+    "nl": "papiervlinder",
+    "cn": "大白斑蝶",
+    "jp": "オオゴマダラ",
+    "kr": "왕얼룩나비",
+    "ru": "идея левконоя"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 1000,
+    "flick": 1500
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a paper kite butterfly! Do I read it, fly it, or spreadit on toast?",
+    "blathers": "With its black-and-white-striped wing pattern, the paper kite butterfly is both elegant and pretty... PRETTY POISONOUS I MEAN! Hoo dear! Where was I? Oh yes... Even this butterfly's black-and-white-striped larva and little golden pupae are toxic to predators. Indeed, the paper kite butterfly's foul flavor is famous, and thus birds, in particular, steer clear of the fiends. THIS bird most of all!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/6",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/6"
+  }
+}

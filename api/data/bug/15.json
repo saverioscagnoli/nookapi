@@ -1,0 +1,70 @@
+{
+  "id": 15,
+  "names": {
+    "en": "madagascan sunset moth",
+    "de": "regenbogenfalter",
+    "es": "polilla crepuscular",
+    "fr": "chrysiridia rhipheus",
+    "it": "urania del madagascar",
+    "nl": "adriandolo",
+    "cn": "日落蛾",
+    "jp": "ニシキオオツバメガ",
+    "kr": "마다가스카르비단제비나방",
+    "ru": "урания мадагаскарская"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 2500,
+    "flick": 3750
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "8am-4pm",
+    "h24": "8-16",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a Madagascan sunset moth! Wow, you're not from around here!",
+    "blathers": "The Madagascan sunset moth is said to be the most beautiful moth in the world...a sentiment even I can't deny. While most moths are nocturnal, this one flutters about during the day, making good use of the light. That is, when the daylight reflects off its wings, a kaleidoscope of colors are revealed! Oh! Eh...too bad it has such startling red feet as a caterpillar. I might have found it almost tolerable otherwise. Almost, but not quite."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/15",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/15"
+  }
+}

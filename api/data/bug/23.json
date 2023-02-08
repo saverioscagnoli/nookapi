@@ -1,0 +1,77 @@
+{
+  "id": 23,
+  "names": {
+    "en": "orchid mantis",
+    "de": "orchideenmantis",
+    "es": "mantis orquídea",
+    "fr": "mante orchidée",
+    "it": "mantide orchidea",
+    "nl": "orchidee-bidsprinkhaan",
+    "cn": "兰花螳螂",
+    "jp": "ハナカマキリ",
+    "kr": "연꽃사마귀",
+    "ru": "орхидейный богомол"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-nov",
+      "indices": "3-11",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "sep-may",
+      "indices": "9-5",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 2400,
+    "flick": 3600
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on white flowers",
+  "phrases": {
+    "catch": "I caught an orchid mantis! Our friendship is blooming!",
+    "blathers": "The orchid mantis is a bug whose brilliant colors and petal-shaped limbs give it the look of a flower. This masterful mimicry allows it to hide from predators in among the orchids. But oh this fraudulent flower! It lures other insects in to drink its nectar... And makes a meal of them instead! Imagine! To behold a beautiful bud... only to discover it's a bug instead! A repulsive revelation indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/23",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/23"
+  }
+}

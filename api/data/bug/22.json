@@ -1,0 +1,77 @@
+{
+  "id": 22,
+  "names": {
+    "en": "mantis",
+    "de": "gottesanbeterin",
+    "es": "mantis religiosa",
+    "fr": "mante religieuse",
+    "it": "mantide",
+    "nl": "bidsprinkhaan",
+    "cn": "螳螂",
+    "jp": "カマキリ",
+    "kr": "사마귀",
+    "ru": "богомол"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-nov",
+      "indices": "3-11",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "sep-may",
+      "indices": "9-5",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 430,
+    "flick": 645
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on flowers",
+  "phrases": {
+    "catch": "I caught a mantis! Man, 'tis so cool!",
+    "blathers": "Hoo! Don't let the mantis's angelic pose fool you...for it is truly monstrous. The mantis is known for its large size and tremendous strength...and for sickle-like arms that pack a punch. And though they tend to eat bugs and spiders...mantises have been known to dine on small animals too! And those eerie eyes! Oh my! Did you know it has five of them! Two big ones and three small! I shall faint if I think on it further..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/22",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/22"
+  }
+}

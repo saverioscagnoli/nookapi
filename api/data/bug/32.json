@@ -1,0 +1,65 @@
+{
+  "id": 32,
+  "names": {
+    "en": "red dragonfly",
+    "de": "feuerlibelle",
+    "es": "libélula roja",
+    "fr": "sympetrum",
+    "it": "libellula rossa",
+    "nl": "rode libel",
+    "cn": "红蜻蜓",
+    "jp": "アキアカネ",
+    "kr": "고추잠자리",
+    "ru": "красная стрекоза"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "sep-oct",
+      "indices": "9-10",
+      "indices_array": [
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "mar-apr",
+      "indices": "3-4",
+      "indices_array": [
+        3,
+        4
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 180,
+    "flick": 270
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a red dragonfly! Didn't even have to roll for initiative!",
+    "blathers": "I won't deny that the wretched red dragonfly is an elegant aeronaut. It manipulates its four wings quite uniquely so it can hover and maneuver through the air with ease. But the veins on its wings! What ghastly things! One can't help but gasp at the sight of them... Appalling aerodynamics, indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/32",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/32"
+  }
+}

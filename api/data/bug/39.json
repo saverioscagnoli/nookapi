@@ -1,0 +1,71 @@
+{
+  "id": 39,
+  "names": {
+    "en": "diving beetle",
+    "de": "schwimmkäfer",
+    "es": "escarabajo nadador",
+    "fr": "dytique",
+    "it": "ditisco",
+    "nl": "waterroofkever",
+    "cn": "龙虱",
+    "jp": "ゲンゴロウ",
+    "kr": "물방개",
+    "ru": "плавунец"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-sep",
+      "indices": "5-9",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "nov-mar",
+      "indices": "11-3",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 800,
+    "flick": 1200
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on ponds and rivers",
+  "phrases": {
+    "catch": "I caught a diving beetle! Now I'm making a splash!",
+    "blathers": "Ah, the dastardly diving beetle! Famous for its distinctive round shape...and its voracious appetite. This powerful predator uses thick back legs covered in hairs to paddle after its prey. And it uses suction cups on its front legs to grip its quarry for good. My own legs have gone weak thinking about it..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/39",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/39"
+  }
+}

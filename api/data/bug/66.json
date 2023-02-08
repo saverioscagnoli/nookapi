@@ -1,0 +1,66 @@
+{
+  "id": 66,
+  "names": {
+    "en": "walking stick",
+    "de": "stabschrecke",
+    "es": "insecto palo",
+    "fr": "phasme",
+    "it": "insetto stecco",
+    "nl": "wandelende tak",
+    "cn": "竹节虫",
+    "jp": "ナナフシ",
+    "kr": "긴수염대벌레",
+    "ru": "палочник"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-nov",
+      "indices": "7-11",
+      "indices_array": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "jan-may",
+      "indices": "1-5",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 600,
+    "flick": 900
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "4am-8am&5pm-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a walking stick! Check out its walking schtick! Look, these are the jokes, OK?",
+    "blathers": "The walking stick looks just like a twig, does it not? Hoo! It even has knots like a real twig would! These bashful bugs mimic plants in this way to hide from predators. A noble goal, you might say. But though the deceptive wretches fool some, they do not fool me! I see these bugs for what they are... Monsters, plain and simple! I say, did you know that walking sticks can grow to two feet long?! Imagine running into one! Surely I would faint."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/66",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/66"
+  }
+}

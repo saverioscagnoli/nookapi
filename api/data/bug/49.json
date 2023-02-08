@@ -1,0 +1,77 @@
+{
+  "id": 49,
+  "names": {
+    "en": "blue weevil beetle",
+    "de": "blaurüsselkäfer",
+    "es": "gorgojo azul",
+    "fr": "charançon bleu",
+    "it": "coleottero schoenherr",
+    "nl": "blauwe snuitkever",
+    "cn": "宝石象鼻虫",
+    "jp": "ホウセキゾウムシ",
+    "kr": "유포루스바구미",
+    "ru": "синий долгоносик"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 800,
+    "flick": 1200
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on palm trees",
+  "phrases": {
+    "catch": "I caught a blue weevil beetle! It's the lesser of blue weevils!",
+    "blathers": "Yes, yes. The blue weevil beetle does come in beautiful shades of blue and green. The colors are so bright, some say it looks like a living jewel. But I say it looks like a weevil...and weevil rhymes with EVIL. Draw your own conclusions from there. Hoot! I certainly have!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/49",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/49"
+  }
+}

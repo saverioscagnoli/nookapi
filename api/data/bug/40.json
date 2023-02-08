@@ -1,0 +1,75 @@
+{
+  "id": 40,
+  "names": {
+    "en": "giant water bug",
+    "de": "riesenwanze",
+    "es": "chinche acuática gigante",
+    "fr": "punaise d'eau géante",
+    "it": "cimice d'acqua gigante",
+    "nl": "reuzenwaterwants",
+    "cn": "田鳖",
+    "jp": "タガメ",
+    "kr": "물장군",
+    "ru": "водяной клоп-гигант"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 2000,
+    "flick": 3000
+  },
+  "rarity": "***",
+  "day": {
+    "h12": "7pm-8am",
+    "h24": "19-8",
+    "hours_array": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "on ponds and rivers",
+  "phrases": {
+    "catch": "I caught a giant water bug! It should've stayed in the water!",
+    "blathers": "How to put this gently? Ah yes... BEWARE the giant water bug! I tell you, this vicious predator has been known to attack fish, frogs, and even snakes! SNAKES! Truth be told, no one is safe! Its nickname is \"the toe-biter,\" for goodness sakes! Now, one final fact before I faint... The gruesome bug uses its nose...to inject its prey...with digestive juices. Hoo... Must stop thinking about...the unthinkable."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/40",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/40"
+  }
+}

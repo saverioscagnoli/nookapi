@@ -1,0 +1,77 @@
+{
+  "id": 77,
+  "names": {
+    "en": "centipede",
+    "de": "hundertfüßer",
+    "es": "ciempiés",
+    "fr": "mille-pattes",
+    "it": "centopiedi",
+    "nl": "duizendpoot",
+    "cn": "蜈蚣",
+    "jp": "ムカデ",
+    "kr": "지네",
+    "ru": "многоножка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "sep-jun",
+      "indices": "9-6",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "southern": {
+      "name": "mar-dec",
+      "indices": "3-12",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 300,
+    "flick": 450
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "4pm-11pm",
+    "h24": "23-16",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "hitting rocks",
+  "phrases": {
+    "catch": "I caught a centipede! 99 more and I'll have a dollarpede!",
+    "blathers": "The centipede's name means \"100 legs.\" But I tell you now, that's a lie! These ugly bugs can have as few as 15 pairs of legs...or as many as 171. But because of how their bodies are segmented, they never have exactly 100! Hoo! It's true! You know what else is true? Centipedes are carnivorous, aggressive, and venomous! And their bite is quite painful too! HOO-rrible things, I say."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/77",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/77"
+  }
+}

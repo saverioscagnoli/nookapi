@@ -1,0 +1,61 @@
+{
+  "id": 36,
+  "names": {
+    "en": "firefly",
+    "de": "leuchtkäfer",
+    "es": "luciérnaga",
+    "fr": "luciole",
+    "it": "lucciola",
+    "nl": "vuurvliegje",
+    "cn": "萤火虫",
+    "jp": "ホタル",
+    "kr": "반디",
+    "ru": "светлячок"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        6
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 300,
+    "flick": 450
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "7pm-4am",
+    "h24": "19-4",
+    "hours_array": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "location": "flying (near water)",
+  "phrases": {
+    "catch": "I caught a firefly! I'm on fire now!",
+    "blathers": "The firefly isn't a fly at all! It is a beetle, you see—and one known for its ghastly glowing backside. This light is called \"bioluminescence\" and it is caused by...by...a chemical reaction in the rump. Males flash about in the night sky to attract females, while their larvae turn on the glow to put off predators. Speaking of their yucky young, firefly larvae love to dine on snails! Hoo! Ewwww!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/36",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/36"
+  }
+}

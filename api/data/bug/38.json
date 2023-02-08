@@ -1,0 +1,71 @@
+{
+  "id": 38,
+  "names": {
+    "en": "pondskater",
+    "de": "wasserläufer",
+    "es": "zapatero",
+    "fr": "patineur",
+    "it": "gerride",
+    "nl": "schaatsenrijder",
+    "cn": "水黾",
+    "jp": "アメンボ",
+    "kr": "소금쟁이",
+    "ru": "водомерка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-sep",
+      "indices": "5-9",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "nov-mar",
+      "indices": "11-3",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 130,
+    "flick": 195
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on ponds and rivers",
+  "phrases": {
+    "catch": "I caught a pondskater! Wonder if it can do a pond ollie...",
+    "blathers": "Putrid pondskaters! They walk on water, you know...which is most preposterous! It is a trick they perform by secreting oil onto the hairs of their feet. To which I say BLEEECH! And one must wonder... What will they do next? Walk on air? Walk through walls? Perish the thought..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/38",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/38"
+  }
+}

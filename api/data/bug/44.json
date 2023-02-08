@@ -1,0 +1,92 @@
+{
+  "id": 44,
+  "names": {
+    "en": "tiger beetle",
+    "de": "sandlaufkäfer",
+    "es": "escarabajo tigre",
+    "fr": "cicindèle",
+    "it": "cicindela",
+    "nl": "zandloopkever",
+    "cn": "虎甲虫",
+    "jp": "ハンミョウ",
+    "kr": "길앞잡이",
+    "ru": "жук-скакун"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "feb-nov",
+      "indices": "2-11",
+      "indices_array": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "aug-apr",
+      "indices": "8-4",
+      "indices_array": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 1500,
+    "flick": 2250
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a tiger beetle! I pounced first!",
+    "blathers": "The tiger beetle is extremely fleet of foot, though it runs in a rather peculiar way. That is, it sprints, then stops, then sprints again...using these speedy maneuvers to run down its prey. You see, the tiger beetle—like a real tiger—is a powerful predator. The mere thought of it giving chase gives me the willies. Tigers are terrifying at any size."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/44",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/44"
+  }
+}

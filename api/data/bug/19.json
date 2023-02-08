@@ -1,0 +1,65 @@
+{
+  "id": 19,
+  "names": {
+    "en": "grasshopper",
+    "de": "grashüpfer",
+    "es": "saltamontes",
+    "fr": "sauterelle",
+    "it": "cavalletta",
+    "nl": "sprinkhaan",
+    "cn": "蚱蜢",
+    "jp": "キリギリス",
+    "kr": "여치",
+    "ru": "кузнечик"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-sep",
+      "indices": "7-9",
+      "indices_array": [
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "jan-mar",
+      "indices": "1-3",
+      "indices_array": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 160,
+    "flick": 240
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a grasshopper! They're a grass act!",
+    "blathers": "Grasshoppers are known for making a \"chirping\" sound. Though it doesn't sound like chirping to me... They make this rude racket by rubbing their hind legs against their wings. And though they eat seeds and pollen, they sometimes prey on smaller insects too. I say! Such violent table manners should not be tolerated! Horrible hoppers."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/19",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/19"
+  }
+}

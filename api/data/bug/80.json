@@ -1,0 +1,71 @@
+{
+  "id": 80,
+  "names": {
+    "en": "scorpion",
+    "de": "skorpion",
+    "es": "escorpión",
+    "fr": "scorpion",
+    "it": "scorpione",
+    "nl": "schorpioen",
+    "cn": "蝎子",
+    "jp": "サソリ",
+    "kr": "전갈",
+    "ru": "скорпион"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 8000,
+    "flick": 12000
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "7pm-4am",
+    "h24": "19-4",
+    "hours_array": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a scorpion! It was a sting operation!",
+    "blathers": "The scorpion...how should I put this? Those legs! Those pincers! That tail! And that venomous stinger! It's as if someone took all the most awful insect parts...and put them together to make the scorpion! All scorpions are venomous, you know! Though I understand that only a few kinds are truly deadly. I fear I might die just thinking about it."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/80",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/80"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 34,
+  "names": {
+    "en": "banded dragonfly",
+    "de": "quelljungfer",
+    "es": "libélula tigre",
+    "fr": "cordulégastre",
+    "it": "libellula striata",
+    "nl": "bronlibel",
+    "cn": "无霸勾蜓",
+    "jp": "オニヤンマ",
+    "kr": "장수잠자리",
+    "ru": "кордулегастер"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 4500,
+    "flick": 6750
+  },
+  "rarity": "***",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I did it! Did you see that? I caught a banded dragonfly!",
+    "blathers": "The banded dragonfly is known for its black-and-yellow-striped body, as well as for its piercing green eyes. And it is those very eyes that help make dragonflies master hunters, you see. Alas, when one looks at me, I can't help but feel it is sizing me up for a meal! Hoot! The horrors! Look away, fiend!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/34",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/34"
+  }
+}

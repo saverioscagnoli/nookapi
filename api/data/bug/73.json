@@ -1,0 +1,69 @@
+{
+  "id": 73,
+  "names": {
+    "en": "mosquito",
+    "de": "mücke",
+    "es": "mosquito",
+    "fr": "moustique",
+    "it": "zanzara",
+    "nl": "mug",
+    "cn": "蚊子",
+    "jp": "カ",
+    "kr": "모기",
+    "ru": "комар"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jun-sep",
+      "indices": "6-9",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "dec-mar",
+      "indices": "12-3",
+      "indices_array": [
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 130,
+    "flick": 195
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "5pm-4am",
+    "h24": "17-4",
+    "hours_array": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a mosquito! It's itching for a fight!",
+    "blathers": "As everyone knows, the mosquito is a vampiric pest that sucks blood from innocent bystanders. But did you know that only the females suck blood? Hoo! It's true! They need it to make their eggs. When they sink their snout into our skin, they inject us with a saliva that helps them slurp up their meal. It's that saliva that makes us itch and scratch, you know. Hoo! So rude!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/73",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/73"
+  }
+}

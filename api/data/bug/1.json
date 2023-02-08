@@ -1,0 +1,85 @@
+{
+  "id": 1,
+  "names": {
+    "en": "common butterfly",
+    "de": "kohlweißling",
+    "es": "mariposa común",
+    "fr": "piéride de la rave",
+    "it": "farfalla comune",
+    "nl": "koolwitje",
+    "cn": "白粉蝶",
+    "jp": "モンシロチョウ",
+    "kr": "배추흰나비",
+    "ru": "белянка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "sep-jun",
+      "indices": "9-6",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "southern": {
+      "name": "mar-dec",
+      "indices": "3-12",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 160,
+    "flick": 240
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "4am-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a common butterfly! They often flutter by!",
+    "blathers": "The common butterfly would have you believe it is but a beautiful friend flitting prettily about the flowers. Bah, I say! They may seem innocent things with their pretty white wings, but they hide a dark side! The common butterfly caterpillar is called a cabbage worm, you see, and it's a most voracious pest. The ravenous beasts chew through cabbage, broccoli, kale and the like with a devastating gusto. And my feathers! Their green coloring is truly GROSS! A hoo-rrific hue, I say."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/1",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/1"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 57,
+  "names": {
+    "en": "giant stag",
+    "de": "riesen-hirschkäfer",
+    "es": "escarabajo ciervo gigante",
+    "fr": "lucane cerf-volant",
+    "it": "coleottero gigante",
+    "nl": "reuzenhertkever",
+    "cn": "大锹形虫",
+    "jp": "オオクワガタ",
+    "kr": "왕사슴벌레",
+    "ru": "гигантский жук-олень"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 10000,
+    "flick": 15000
+  },
+  "rarity": "***",
+  "day": {
+    "h12": "11pm-8am",
+    "h24": "23-8",
+    "hours_array": [
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "Whoaaa! I caught a giant stag! I'm gonna need way bigger pockets...",
+    "blathers": "It is said the giant stag is a popular pet among bug enthusiasts. Though how one might consider oneself enthusiastic about bugs is quite beyond me... But I digress. Giant stags look fearsome with their enormous curved mandibles. But in truth, they're really quite cowardly. Oh how they love to hide away in rotting wood, only to reveal themselves under the cover of dark. Hoot! I shall never turn off the lights again!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/57",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/57"
+  }
+}

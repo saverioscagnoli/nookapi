@@ -1,0 +1,79 @@
+{
+  "id": 67,
+  "names": {
+    "en": "walking leaf",
+    "de": "blattschrecke",
+    "es": "insecto hoja",
+    "fr": "phyllie",
+    "it": "insetto foglia",
+    "nl": "wandelend blad",
+    "cn": "叶竹节虫",
+    "jp": "コノハムシ",
+    "kr": "잎사귀벌레",
+    "ru": "листотел"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-sep",
+      "indices": "7-9",
+      "indices_array": [
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "jan-mar",
+      "indices": "1-3",
+      "indices_array": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 600,
+    "flick": 900
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "under trees",
+  "phrases": {
+    "catch": "I caught a walking leaf! It seems to be taking it in stride!",
+    "blathers": "What a fraud! What a phony! The walking leaf is, in fact, the very embodiment of a lie! This master mimic looks like a tree leaf all the way down to the tiniest details. In fact, this bug has been known to sway to and fro as it walks...just so it looks like a leaf blown by the wind! And the fakery works! These insects look so much like leaves that even leaf-eating insects nibble on them! Lying liars, indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/67",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/67"
+  }
+}

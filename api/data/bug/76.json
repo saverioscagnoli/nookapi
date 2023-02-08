@@ -1,0 +1,87 @@
+{
+  "id": 76,
+  "names": {
+    "en": "pill bug",
+    "de": "kugelassel",
+    "es": "cochinilla",
+    "fr": "cloporte",
+    "it": "porcellino di terra",
+    "nl": "rolpissebed",
+    "cn": "鼠妇",
+    "jp": "ダンゴムシ",
+    "kr": "공벌레",
+    "ru": "мокрица"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "sep-jun",
+      "indices": "9-6",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "southern": {
+      "name": "mar-dec",
+      "indices": "3-12",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 250,
+    "flick": 375
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "11pm-4pm",
+    "h24": "23-16",
+    "hours_array": [
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "hitting rocks",
+  "phrases": {
+    "catch": "I caught a pill bug! That's a tough act to swallow!",
+    "blathers": "Blech, the pill bug! Children delight at the way these beasts roll into balls when poked... But the appeal is utterly lost on me. One look at their leggy undersides... Hoo! Ewww! How they wriggle! Young pill bugs shed their exo- skeletons as they grow, and in doing so, sprout another pair of legs. As if 12 appendages weren't alarming enough! Yuck, I say. Yuck!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/76",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/76"
+  }
+}

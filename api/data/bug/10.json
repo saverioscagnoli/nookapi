@@ -1,0 +1,71 @@
+{
+  "id": 10,
+  "names": {
+    "en": "agrias butterfly",
+    "de": "agrias-falter",
+    "es": "mariposa narciso",
+    "fr": "agrias",
+    "it": "farfalla agrias",
+    "nl": "agriasvlinder",
+    "cn": "彩袄蛱蝶",
+    "jp": "ミイロタテハ",
+    "kr": "아그리아스나비",
+    "ru": "агриас клаудина"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 3000,
+    "flick": 4500
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught an agrias butterfly! I wonder if it finds me disagrias-able?",
+    "blathers": "Some say the agrias butterfly is one of the most beautiful butterflies in the world. Bah, I say! BAH! They may have brightly colored wings, but the way they flutter and flitter...SO FOUL! In fact, the agrias butterfly flies so fast, it is quite a feat to catch one. I suppose I should congratulate you on your good fortune... But catching any bug seems a misfortune to me."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/10",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/10"
+  }
+}

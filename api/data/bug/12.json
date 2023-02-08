@@ -1,0 +1,68 @@
+{
+  "id": 12,
+  "names": {
+    "en": "queen alexandra's birdwing",
+    "de": "vogelfalter",
+    "es": "mariposa alas de pájaro",
+    "fr": "troides alexandrae",
+    "it": "farfalla regina alessandra",
+    "nl": "alexandra's vogelvlinder",
+    "cn": "亚历山大凤蝶",
+    "jp": "アレキサンドラトリバネアゲハ",
+    "kr": "알렉산드라비단제비나비",
+    "ru": "птицекрылка александры"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-sep",
+      "indices": "5-9",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "nov-mar",
+      "indices": "11-3",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 4000,
+    "flick": 6000
+  },
+  "rarity": "***",
+  "day": {
+    "h12": "8am-4pm",
+    "h24": "8-16",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a Queen Alexandra's birdwing! That's a feather in my cap!",
+    "blathers": "Hoo! The horror! This behemoth butterfly may be called a Queen Alexandra's birdwing... But I call it the Queen of My Nightmares! It is huge! Indeed, the world's hugest. No butterfly can best its foot-long wingspan. The larvae alone grow to more than 4 inches. As if that weren't appalling enough...they're poisonous! Murderous monsters, indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/12",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/12"
+  }
+}

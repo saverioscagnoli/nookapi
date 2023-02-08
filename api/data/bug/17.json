@@ -1,0 +1,69 @@
+{
+  "id": 17,
+  "names": {
+    "en": "migratory locust",
+    "de": "wanderschrecke",
+    "es": "langosta migratoria",
+    "fr": "criquet pèlerin",
+    "it": "locusta migratoria",
+    "nl": "treksprinkhaan",
+    "cn": "飞蝗",
+    "jp": "トノサマバッタ",
+    "kr": "섬풀무치",
+    "ru": "перелетная саранча"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "aug-nov",
+      "indices": "8-11",
+      "indices_array": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "feb-may",
+      "indices": "2-5",
+      "indices_array": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 600,
+    "flick": 900
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a migratory locust! Things just went south for this guy!",
+    "blathers": "Ah yes, the lone migratory locust. It seems like such a harmless hopper as it bounces about in the grass. But beware! When these pests band together and travel in swarms, they leave devastation in their wake! Migratory locusts have gathered by the millions throughout history, wiping out crops and causing famine. That's why I always say, \"Never let a locust hang out with its friends!\". That is precisely how a plague begins."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/17",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/17"
+  }
+}

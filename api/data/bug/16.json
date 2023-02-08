@@ -1,0 +1,77 @@
+{
+  "id": 16,
+  "names": {
+    "en": "long locust",
+    "de": "nasenschrecke",
+    "es": "langosta alargada",
+    "fr": "acrida cinerea",
+    "it": "acrida cinerea",
+    "nl": "veldsprinkhaan",
+    "cn": "中华剑角蝗",
+    "jp": "ショウリョウバッタ",
+    "kr": "방아깨비",
+    "ru": "акрида"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-nov",
+      "indices": "4-11",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "oct-may",
+      "indices": "10-5",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 200,
+    "flick": 300
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a long locust! Or, as I call it, a looooocust.",
+    "blathers": "As if the average locust weren't large enough...we must suffer the long locust too! The wretched beasts are known for their unusually long hind legs as well as their elongated heads. But that is hardly the long locusts' worst trait... I tell you, they spit brown goo when they're scared!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/16",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/16"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 63,
+  "names": {
+    "en": "horned atlas",
+    "de": "atlaskäfer",
+    "es": "escarabajo astado atlas",
+    "fr": "scarabée atlas",
+    "it": "scarabeo atlas",
+    "nl": "atlaskever",
+    "cn": "高卡萨斯南洋大兜虫",
+    "jp": "コーカサスオオカブト",
+    "kr": "코카서스장수풍뎅이",
+    "ru": "жук-атлас"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 8000,
+    "flick": 12000
+  },
+  "rarity": "****",
+  "day": {
+    "h12": "5pm-8am",
+    "h24": "17-8",
+    "hours_array": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "on palm trees",
+  "phrases": {
+    "catch": "I caught a horned atlas! I didn't even need a map!",
+    "blathers": "Beware the horned atlas! I tell you, this rhinoceros beetle is known for its violent temperament! The males use the three large horns on their heads to fight amongst each other for dominance. But it is their young that truly give me the cold sweats. You see, their larvae grow quite large and, worst of all...they bite! It is the stuff of nightmares, I say."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/63",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/63"
+  }
+}

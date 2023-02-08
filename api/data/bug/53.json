@@ -1,0 +1,79 @@
+{
+  "id": 53,
+  "names": {
+    "en": "drone beetle",
+    "de": "japan-rosenkäfer",
+    "es": "escarabajo verde japonés",
+    "fr": "pseudotorynorrhina",
+    "it": "cetonia dorata",
+    "nl": "bladsprietkever",
+    "cn": "日铜锣花金龟",
+    "jp": "カナブン",
+    "kr": "풍이",
+    "ru": "бронзовка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jun-aug",
+      "indices": "6-8",
+      "indices_array": [
+        6,
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "dec-feb",
+      "indices": "12-2",
+      "indices_array": [
+        12,
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 200,
+    "flick": 300
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a drone beetle! Shouldn't you have more propellers?",
+    "blathers": "I must say, the drone beetle is like that boorish acquaintance who is much too loud for polite company. That is, it is a large bug with a square head and is so named for the droning noise it makes when it flies. Furthermore, it has hooks on its feet that help it to cling tightly to trees. HOOK FEET... How gauche!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/53",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/53"
+  }
+}

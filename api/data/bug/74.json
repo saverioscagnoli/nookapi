@@ -1,0 +1,89 @@
+{
+  "id": 74,
+  "names": {
+    "en": "flea",
+    "de": "floh",
+    "es": "pulga",
+    "fr": "puce",
+    "it": "pulce",
+    "nl": "vlo",
+    "cn": "跳蚤",
+    "jp": "ノミ",
+    "kr": "벼룩",
+    "ru": "блоха"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-nov",
+      "indices": "4-11",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "oct-may",
+      "indices": "10-5",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 70,
+    "flick": 105
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on villagers",
+  "phrases": {
+    "catch": "I caught a flea! The curse is lifted.",
+    "blathers": "Allow me to be blunt. The flea is foul! It is also disgusting, repugnant, and vile! Hoo! But I digress... This horrid pest sucks the blood of humans and animals. In fact, it is the flea's own saliva that makes us itch! And did you know their legs are so strong, they can jump more than 50 times their body length? So you see, it's all too easy for a flea to jump from you to me! I itch at the very thought."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/74",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/74"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": 5,
+  "names": {
+    "en": "common bluebottle",
+    "de": "kolibrifalter",
+    "es": "mariposa triángulo azul",
+    "fr": "graphium sarpedon",
+    "it": "graphium sarpedon",
+    "nl": "blauwe driehoek",
+    "cn": "青带凤蝶",
+    "jp": "アオスジアゲハ",
+    "kr": "청띠제비나비",
+    "ru": "графиум сарпедон"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-aug",
+      "indices": "4-8",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "sep-feb",
+      "indices": "9-2",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 300,
+    "flick": 450
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "4am-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a common bluebottle! I'll put it in a rare green jar!",
+    "blathers": "The common bluebottle is a type of swallowtail butterfly with a bright blue line running down its wings. They fly quite nimbly, it seems, and are thus quite difficult to catch. But seeing how they've been known to slurp nutrients from MUD puddles... I simply CAN'T imagine wanting to catch one myself. What awful breath!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/5",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/5"
+  }
+}

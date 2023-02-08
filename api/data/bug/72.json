@@ -1,0 +1,97 @@
+{
+  "id": 72,
+  "names": {
+    "en": "fly",
+    "de": "fliege",
+    "es": "mosca",
+    "fr": "mouche",
+    "it": "mosca",
+    "nl": "vlieg",
+    "cn": "苍蝇",
+    "jp": "ハエ",
+    "kr": "파리",
+    "ru": "муха"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 60,
+    "flick": 90
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "near trash",
+  "phrases": {
+    "catch": "I caught a fly! I was just wingin' it...",
+    "blathers": "The foul fly is quite the disquieting creature. I tell you, it tastes its food with its feet! Yeep! In fact, when flies rub their legs together, they do so to get rid of debris blocking their taste receptors. And did you know, their hairy toes release a sticky goo so they can walk on any surface? Even your ceiling! This gross goo gets on your food too!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/72",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/72"
+  }
+}

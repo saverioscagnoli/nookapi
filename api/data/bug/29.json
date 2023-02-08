@@ -1,0 +1,63 @@
+{
+  "id": 29,
+  "names": {
+    "en": "walker cicada",
+    "de": "bergzikade",
+    "es": "cigarra común",
+    "fr": "cigale cicadelle",
+    "it": "cicala sputacchina",
+    "nl": "bergcicade",
+    "cn": "寒蝉",
+    "jp": "ツクツクホウシ",
+    "kr": "애매미",
+    "ru": "горная цикада"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "aug-sep",
+      "indices": "8-9",
+      "indices_array": [
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "feb-mar",
+      "indices": "2-3",
+      "indices_array": [
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 400,
+    "flick": 600
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a walker cicada! Pffft... I walk all the time and no one calls me \"Walker ...\"",
+    "blathers": "The walker cicada is quite the noisy thing. I tell you, this impolite pest simply canNOT abide the quiet. In the heat of summer, the male strikes up a strange rattling song, hoping to woo a mate. When other male cicadas hear this rhythmic racket, they join right in... As if it were a sing-along! My head aches at the thought of it."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/29",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/29"
+  }
+}

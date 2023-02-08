@@ -1,0 +1,63 @@
+{
+  "id": 26,
+  "names": {
+    "en": "brown cicada",
+    "de": "braunzikade",
+    "es": "cigarra marrón",
+    "fr": "cigale cercope",
+    "it": "cicala marrone",
+    "nl": "bruine cicade",
+    "cn": "油蝉",
+    "jp": "アブラゼミ",
+    "kr": "유지매미",
+    "ru": "коричневая цикада"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 250,
+    "flick": 375
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a brown cicada! Now it probably feels blue, cicada.",
+    "blathers": "Cicadas are obnoxious insects. And not just brown cicadas, mind you...but all cicadas! They flex ribbed membranes on their torso called tymbals to make a loud snapping sound. So rude! Hoo! Yes, it is only the males who make the noise. Sometimes at a volume that can produce pain at close range! Appallingly inconsiderate, I must say..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/26",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/26"
+  }
+}

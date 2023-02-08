@@ -1,0 +1,81 @@
+{
+  "id": 9,
+  "names": {
+    "en": "emperor butterfly",
+    "de": "himmelsfalter",
+    "es": "mariposa celeste",
+    "fr": "morpho bleu",
+    "it": "farfalla morfo blu",
+    "nl": "blauwe morpho",
+    "cn": "大蓝闪蝶",
+    "jp": "モルフォチョウ",
+    "kr": "몰포나비",
+    "ru": "морфо менелай"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jun-sep~dec-mar",
+      "indices": "6-9~12-3",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        1,
+        2,
+        3
+      ]
+    },
+    "southern": {
+      "name": "jun-sep~dec-mar",
+      "indices": "6-9~12-3",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 4000,
+    "flick": 6000
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "5pm-8am",
+    "h24": "17-8",
+    "hours_array": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught an emperor butterfly! It's not your average monarch!",
+    "blathers": "The emperor butterfly is called the jewel of the forest. But its vivid blue hue... Ewww, let me tell you! The color does not come from a dye, but rather from light reflecting off layers of translucent scales. Yes, butterfly wings are covered in tiny scales! SCALES! Butterfly? Bah! More like snake of the sky!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/9",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/9"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 64,
+  "names": {
+    "en": "horned elephant",
+    "de": "elefantenkäfer",
+    "es": "escarabajo astado elefante",
+    "fr": "scarabée éléphant",
+    "it": "scarabeo elefante",
+    "nl": "olifantkever",
+    "cn": "象兜虫",
+    "jp": "ゾウカブト",
+    "kr": "코끼리장수풍뎅이",
+    "ru": "жук-слон"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 8000,
+    "flick": 12000
+  },
+  "rarity": "****",
+  "day": {
+    "h12": "5pm-8am",
+    "h24": "17-8",
+    "hours_array": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "location": "on palm trees",
+  "phrases": {
+    "catch": "I caught a horned elephant! I think it's too small to ride...",
+    "blathers": "The horned elephant beetle certainly lives up to its namesake. Not only does the horn on its head resemble the trunk of an elephant... It is also one of the heaviest beetles in the world! Size aside, allow me to reveal the real reason I find horned elephant beetles so repugnant... Their backs are covered in a fine coat of hair! Hirsute beetles! Hoot! The horror!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/64",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/64"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": 3,
+  "names": {
+    "en": "tiger butterfly",
+    "de": "schwalbenschwanz",
+    "es": "mariposa tigre",
+    "fr": "machaon",
+    "it": "farfalla tigre",
+    "nl": "koninginnenpage",
+    "cn": "凤蝶",
+    "jp": "アゲハチョウ",
+    "kr": "호랑나비",
+    "ru": "махаон"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-sep",
+      "indices": "3-9",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "sep-mar",
+      "indices": "9-3",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 240,
+    "flick": 360
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "4am-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a tiger butterfly! I've earned my stripes!",
+    "blathers": "Tiger butterflies are known for their majestic wings, which many consider quite beautiful. Truth be told, I find them monstrous! Those strange striped patterns... They give this owl the goose bumps! And while you may imagine young tiger butterfly larvae to look like lovely green caterpillars...it's not so! Why, when tiger butterflies are but babes, they're covered in unsightly white, brown, and black spots. In this way, they camouflage themselves as...as...bird droppings! Putrid pests, indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/3",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/3"
+  }
+}

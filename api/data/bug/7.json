@@ -1,0 +1,73 @@
+{
+  "id": 7,
+  "names": {
+    "en": "great purple emperor",
+    "de": "japan-schillerfalter",
+    "es": "marip. emperador japonés",
+    "fr": "sasakia charonda",
+    "it": "farfalla imperatore viola",
+    "nl": "paarse keizervlinder",
+    "cn": "大紫蛱蝶",
+    "jp": "オオムラサキ",
+    "kr": "왕오색나비",
+    "ru": "сасакия харонда"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "may-aug",
+      "indices": "5-8",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "nov-feb",
+      "indices": "11-2",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 3000,
+    "flick": 4500
+  },
+  "rarity": "***",
+  "day": {
+    "h12": "4am-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a great purple emperor! Its purple reign is over now!",
+    "blathers": "The great purple emperor lives high in the treetops and is renowned for its pretty purple-hued wings. Its impressive bird-like wingspan and elusive nature have made it a favorite among butterfly aficionados. But truth be told, the so-called great purple emperor has some not-so-great personal peculiarities. For one...it has two horrid HORNS upon its head when it is in its caterpillar form. For two...it has been known to dine on feces and animal carcasses! Hoo! That's why I call it the Emperor of EWWW!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/7",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/7"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 18,
+  "names": {
+    "en": "rice grasshopper",
+    "de": "heuschrecke",
+    "es": "langosta",
+    "fr": "criquet",
+    "it": "locusta",
+    "nl": "rijstsprinkhaan",
+    "cn": "稻蝗",
+    "jp": "イナゴ",
+    "kr": "메뚜기",
+    "ru": "рисовая кобылка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "aug-nov",
+      "indices": "8-11",
+      "indices_array": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "feb-may",
+      "indices": "2-5",
+      "indices_array": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 400,
+    "flick": 600
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-7pm",
+    "h24": "8-19",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a rice grasshopper! I've been looking for agluten-free alternative...",
+    "blathers": "In point of fact, rice grasshoppers are an awful pest! They devour rice plants and wipe out the crucial crop. But revenge is sweet! These bugs are edible, you see, and so some folks eat them as way to get rid of them. When boiled in soy sauce, rice grasshoppers are quite tasty, it's said. Though why anyone would put an insect in their mouth is beyond me. The mere thought gives me the gags!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/18",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/18"
+  }
+}

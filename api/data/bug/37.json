@@ -1,0 +1,87 @@
+{
+  "id": 37,
+  "names": {
+    "en": "mole cricket",
+    "de": "maulwurfsgrille",
+    "es": "grillo cebollero",
+    "fr": "taupe-grillon",
+    "it": "grillotalpa",
+    "nl": "veenmol",
+    "cn": "蝼蛄",
+    "jp": "オケラ",
+    "kr": "땅강아지",
+    "ru": "медведка"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "nov-may",
+      "indices": "11-5",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "southern": {
+      "name": "may-nov",
+      "indices": "5-11",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 500,
+    "flick": 750
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "underground",
+  "phrases": {
+    "catch": "I caught a mole cricket! I really dug it!",
+    "blathers": "Be warned, there is nowhere one might hide from the mole cricket. This plump pest has powerful front claws made for digging holes, and oh how it loves to burrow underground! A cousin to the grasshopper, it also has wings and can easily take to the air. And I swear this on my pinfeathers... Some have even been seen walking on water! Oh mercy, I may need a moment. This is making me feel rather woozy..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/37",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/37"
+  }
+}

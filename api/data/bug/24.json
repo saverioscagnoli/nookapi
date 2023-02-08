@@ -1,0 +1,69 @@
+{
+  "id": 24,
+  "names": {
+    "en": "honeybee",
+    "de": "honigbiene",
+    "es": "abeja melífera",
+    "fr": "abeille naine",
+    "it": "ape operaia",
+    "nl": "honingbij",
+    "cn": "蜜蜂",
+    "jp": "ミツバチ",
+    "kr": "꿀벌",
+    "ru": "восковая пчела"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "mar-jul",
+      "indices": "3-7",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "southern": {
+      "name": "sep-jan",
+      "indices": "9-1",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 200,
+    "flick": 300
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "flying",
+  "phrases": {
+    "catch": "I caught a honeybee! Ah, sweet success!",
+    "blathers": "Did you know it takes a team of honeybees working together to transform flower nectar into honey? Indeed, forager bees suck nectar from flowers into their \"honey stomachs\" and then fly it to the hive. Hive bees then chew the substance and spit it into the honeycomb, fluttering their wings to dry it out. Yes, you could say honey is a tasty tribute to the hard work of the humble honeybee. Oh! Oh my! You mustn't confuse my lengthy description for admiration! At the end of the day, honeybees are still insects, and thus still ghastly! A wee bit less ghastly than most, I admit."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/24",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/24"
+  }
+}

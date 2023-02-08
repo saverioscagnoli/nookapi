@@ -1,0 +1,71 @@
+{
+  "id": 14,
+  "names": {
+    "en": "atlas moth",
+    "de": "atlasspinner",
+    "es": "polilla atlas",
+    "fr": "attacus atlas",
+    "it": "farfalla cobra",
+    "nl": "atlasvlinder",
+    "cn": "皇蛾",
+    "jp": "ヨナグニサン",
+    "kr": "아틀라스나방",
+    "ru": "павлиноглазка атлас"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 3000,
+    "flick": 4500
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "7pm-4am",
+    "h24": "19-4",
+    "hours_array": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught an Atlas moth! I bet it never gets lost!",
+    "blathers": "The Atlas moth is a monstrous thing! Not only is it one of the largest moths in the world... The tips of its wings look rather like the heads of venomous snakes! Despite its largeness and loathsome looks, the adult Atlas moth lives only for a few days. It emerges from its cocoon without a mouth, you see...and so cannot eat. I feel for the poor thing...but it is still foul!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/14",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/14"
+  }
+}

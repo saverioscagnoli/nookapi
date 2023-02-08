@@ -1,0 +1,61 @@
+{
+  "id": 30,
+  "names": {
+    "en": "evening cicada",
+    "de": "abendzikade",
+    "es": "cigarrilla",
+    "fr": "cigale higurashi",
+    "it": "cicala notturna",
+    "nl": "avondcicade",
+    "cn": "暮蝉",
+    "jp": "ヒグラシ",
+    "kr": "쓰르라미",
+    "ru": "ночная цикада"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 550,
+    "flick": 825
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "4am-8am&4pm-7pm",
+    "h24": "4-19",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught an evening cicada! Better than an odding cicada...",
+    "blathers": "The evening cicada certainly knows how to ruin a quiet moment. As the sun sets, it strikes up a sad song so sonorous, one can't hear one's own thoughts! I'd feel sorry for its melancholy moods if it weren't so very vocal about how it feels. Ugh, please pipe down..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/30",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/30"
+  }
+}

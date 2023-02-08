@@ -1,0 +1,79 @@
+{
+  "id": 50,
+  "names": {
+    "en": "dung beetle",
+    "de": "mistkäfer",
+    "es": "escarabajo pelotero",
+    "fr": "bousier",
+    "it": "scarabeo stercorario",
+    "nl": "mestkever",
+    "cn": "蜣螂",
+    "jp": "フンコロガシ",
+    "kr": "쇠똥구리",
+    "ru": "жук-навозник"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "dec-feb",
+      "indices": "12-2",
+      "indices_array": [
+        12,
+        1,
+        2
+      ]
+    },
+    "southern": {
+      "name": "jun-aug",
+      "indices": "6-8",
+      "indices_array": [
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 3000,
+    "flick": 4500
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on the ground",
+  "phrases": {
+    "catch": "I caught a dung beetle! This species likes feces!",
+    "blathers": "What can I say? The aptly-named dung beetle feeds on the feces of animals. Hoo! You heard right! This putrid pest rolls up balls of dung...and then rolls them away to dine on at a later date. As if that weren't atrocious enough, some dung beetles lay their eggs in the feces too! What a dreadful place to raise the young."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/50",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/50"
+  }
+}

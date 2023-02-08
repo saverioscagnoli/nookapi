@@ -1,0 +1,63 @@
+{
+  "id": 27,
+  "names": {
+    "en": "robust cicada",
+    "de": "hyalessa-zikade",
+    "es": "cigarra oriental",
+    "fr": "cigale hyalessa",
+    "it": "cicala robusta",
+    "nl": "minmin-cicade",
+    "cn": "斑透翅蝉",
+    "jp": "ミンミンゼミ",
+    "kr": "참매미",
+    "ru": "певчая цикада"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 300,
+    "flick": 450
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a robust cicada! It DOES seem pretty lively!",
+    "blathers": "The robust cicada got its name from the chirping sound it makes, which is said to be quite...well...robust. But \"robust\" hardly describes it. Abrasive! Bombastic! Cacophonous! That's more like it! Beside the horrid caterwauling, this bug is known for its long wings, short body, and green coloring. But looking at a robust cicada is just as unpleasant as listening to one. My eyes AND my ears are offended."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/27",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/27"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": 47,
+  "names": {
+    "en": "citrus long-horned beetle",
+    "de": "fichtenbock",
+    "es": "longicornio asiático",
+    "fr": "capricorne des agrumes",
+    "it": "tarlo asiatico",
+    "nl": "aziatische boktor",
+    "cn": "星天牛",
+    "jp": "ゴマダラカミキリ",
+    "kr": "알락하늘소",
+    "ru": "цитрусовый усач"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 350,
+    "flick": 525
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on tree stumps",
+  "phrases": {
+    "catch": "I caught a citrus long-horned beetle! Orange you happy for me?",
+    "blathers": "The citrus long-horned beetle is a putrid pest and a grave threat to trees. Hoo! It's true! Adults possess powerful jaws and use them to chomp through hard wood and plant fibers with ease. The little larvae are no better, boring bullet-like holes into innocent trees with gusto—citrus trees especially. Voracious and vile, indeed!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/47",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/47"
+  }
+}

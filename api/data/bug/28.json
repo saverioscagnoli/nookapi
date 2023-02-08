@@ -1,0 +1,63 @@
+{
+  "id": 28,
+  "names": {
+    "en": "giant cicada",
+    "de": "riesenzikade",
+    "es": "cigarra gigante",
+    "fr": "cigale géante",
+    "it": "cicala gigante",
+    "nl": "reuzencicade",
+    "cn": "熊蝉",
+    "jp": "クマゼミ",
+    "kr": "곰매미",
+    "ru": "гигантская цикада"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 500,
+    "flick": 750
+  },
+  "rarity": "**",
+  "day": {
+    "h12": "8am-5pm",
+    "h24": "8-17",
+    "hours_array": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a giant cicada! I guess it's PRETTY big...",
+    "blathers": "The giant cicada is rather aptly named. That is, it's a truly enormous bug. Ugh! These beasts spend most of their lives underground where they gorge on tree roots. But once they emerge, they make an awful racket. In fact, some say their song sounds like a shrieking siren. I would rather listen to nails on a chalkboard."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/28",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/28"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": 55,
+  "names": {
+    "en": "saw stag",
+    "de": "sägezahn-hirschkäfer",
+    "es": "escarabajo ciervo sierra",
+    "fr": "lucane inclinatus",
+    "it": "coleottero cervo",
+    "nl": "zaaghertkever",
+    "cn": "锯锹形虫",
+    "jp": "ノコギリクワガタ",
+    "kr": "톱사슴벌레",
+    "ru": "жук-олень"
+  },
+  "seasonality": {
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
+  },
+  "sell_prices": {
+    "nook": 2000,
+    "flick": 3000
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "on trees",
+  "phrases": {
+    "catch": "I caught a saw stag! Now I can't unsee it!",
+    "blathers": "The saw stag got its name from the shape of its pincers. That is, its pincers look like jagged saws! And I tell you, the bigger the beetle, the more saw-like teeth its giant jaws have. I say the saw stag seems more at home in a horror film than in nature. I have terrified myself just talking about it."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/bug/55",
+    "icon": "https://nook-api.vercel.app/api/icon/bug/55"
+  }
+}
