@@ -5,7 +5,7 @@ class DataBox {
     art;
     bug;
     fish;
-    sea_creature;
+    "sea-creature";
     song;
     villager;
     shadow_size;

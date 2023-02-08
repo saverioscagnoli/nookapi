@@ -55,11 +55,11 @@ iconRoute.get("/sea-creature/:id", (req, res) => {
   let icon: Buffer;
   if (isName(req.params.id)) {
     let name = req.params.id.toLowerCase();
-    let i = jsonBox.sea_creature.findIndex(s => s.names.en == name);
-    icon = iconBox.sea_creature[i] as unknown as Buffer;
+    let i = jsonBox["sea-creature"].findIndex(s => s.names.en == name);
+    icon = iconBox["sea-creature"][i] as unknown as Buffer;
   } else {
-    let i = jsonBox.sea_creature.findIndex(s => s.id == +req.params.id);
-    icon = iconBox.sea_creature[i] as unknown as Buffer;
+    let i = jsonBox["sea-creature"].findIndex(s => s.id == +req.params.id);
+    icon = iconBox["sea-creature"][i] as unknown as Buffer;
   }
   if (!icon) {
     res.setHeader("Content-Type", "application/json");

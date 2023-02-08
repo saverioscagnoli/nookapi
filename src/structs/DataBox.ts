@@ -4,7 +4,7 @@ export class DataBox implements DataType {
   public art: any[];
   public bug: Bug[];
   public fish: Fish[];
-  public sea_creature: SeaCreature[];
+  public "sea-creature": SeaCreature[];
   public song: any[];
   public villager: any[];
   public shadow_size?: any[];
