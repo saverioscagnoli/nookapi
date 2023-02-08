@@ -2,62 +2,81 @@
   "id": 47,
   "names": {
     "en": "sea butterfly",
-    "de": "See-Engel",
+    "de": "see-engel",
     "es": "mariposa marina",
     "fr": "clione",
-    "it": "papillon de mer",
-    "nl": "cavolinia",
-    "cn": "zeevlinder",
-    "jp": "海天使",
-    "kr": "クリオネ",
-    "ru": "클리오네"
+    "it": "cavolinia",
+    "nl": "zeevlinder",
+    "cn": "海蝴蝶",
+    "jp": "クリオネ",
+    "kr": "클리오네",
+    "ru": "морской ангел"
   },
   "seasonality": {
-    "northern": [
-      12,
-      1,
-      2,
-      3
-    ],
-    "southern": [
-      6,
-      7,
-      8,
-      9
-    ]
+    "northern": {
+      "name": "dec-mar",
+      "indices": "12-3",
+      "indices_array": [
+        12,
+        1,
+        2,
+        3
+      ]
+    },
+    "southern": {
+      "name": "jun-sep",
+      "indices": "6-9",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 1000,
     "CJ": 1500
   },
-  "blathers": "Such mystery! Such grace! Did you know that the sea butterfly's scientific name is Thecosomata? A very rough translation of that is 'shell body.' Indeed, this illustrious creature is related to snails! However, it reminds me much more of an elegant feathered friend, the way it flies through the water. With such grace in flying, one shouldn't wonder if it's related to the owl, hoo hoo!",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/47"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a sea butterfly! Try not to confuse it for a sea moth!",
+    "blathers": "Such mystery! Such grace! Did you know that the sea butterfly's scientific name is Thecosomata? A very rough translation of that is 'shell body.' Indeed, this illustrious creature is related to snails! However, it reminds me much more of an elegant feathered friend, the way it flies through the water. With such grace in flying, one shouldn't wonder if it's related to the owl, hoo hoo!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/47",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/47"
+  }
 }

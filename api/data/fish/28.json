@@ -2,61 +2,81 @@
   "id": 28,
   "names": {
     "en": "char",
-    "de": "Saibling",
+    "de": "saibling",
     "es": "trucha",
     "fr": "omble",
-    "it": "omble",
-    "nl": "salmerino alpino",
-    "cn": "bronforel",
-    "jp": "花羔紅點鮭",
-    "kr": "オオイワナ",
-    "ru": "열목어"
+    "it": "salmerino alpino",
+    "nl": "bronforel",
+    "cn": "花羔红点鲑",
+    "jp": "オオイワナ",
+    "kr": "열목어",
+    "ru": "голец"
   },
   "seasonality": {
-    "northern": [
-      3,
-      4,
-      5,
-      6,
-      9,
-      10,
-      11
-    ],
-    "southern": [
-      3,
-      4,
-      5,
-      9,
-      10,
-      11,
-      12
-    ]
+    "northern": {
+      "name": "mar-jun~sep-nov",
+      "indices": "3-6~9-11",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "mar-may~sep-dec",
+      "indices": "3-5~9-12",
+      "indices_array": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
   },
-  "time_day": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  ],
   "shadow_size": 3,
   "sell_prices": {
     "nook": 3800,
     "CJ": 5700
   },
-  "blathers": "The char is one of the bigger first around the world, and, in the world of fish, that's quite an accomplishment! They are territorial predators, and therefore must constantly defend their 'turf' from others. So when you see a large char like this one, it is likely a skilled fighter and veteran of many battles. My feathers! I hope it never has cause to go into battle with me!",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/28"
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "location": "river (clifftop) & pond",
+  "phrases": {
+    "catch": "I caught a char! Now I'm gonna sit on it!",
+    "blathers": "The char is one of the bigger first around the world, and, in the world of fish, that's quite an accomplishment! They are territorial predators, and therefore must constantly defend their 'turf' from others. So when you see a large char like this one, it is likely a skilled fighter and veteran of many battles. My feathers! I hope it never has cause to go into battle with me!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/28",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/28"
+  }
 }

@@ -2,18 +2,60 @@
   "id": 48,
   "names": {
     "en": "sea horse",
-    "de": "Seepferdchen",
+    "de": "seepferdchen",
     "es": "caballito de mar",
     "fr": "hippocampe",
-    "it": "hippocampe",
-    "nl": "ippocampo",
-    "cn": "zeepaardje",
-    "jp": "海馬",
-    "kr": "タツノオトシゴ",
-    "ru": "해마"
+    "it": "ippocampo",
+    "nl": "zeepaardje",
+    "cn": "海马",
+    "jp": "タツノオトシゴ",
+    "kr": "해마",
+    "ru": "морской конек"
   },
   "seasonality": {
-    "northern": [
+    "northern": {
+      "name": "apr-nov",
+      "indices": "4-11",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "oct-may",
+      "indices": "10-5",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "shadow_size": 1,
+  "sell_prices": {
+    "nook": 1100,
+    "CJ": 1650
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
       4,
       5,
       6,
@@ -21,51 +63,28 @@
       8,
       9,
       10,
-      11
-    ],
-    "southern": [
-      10,
       11,
       12,
-      1,
-      2,
-      3,
-      4,
-      5
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
     ]
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
-  "shadow_size": 1,
-  "sell_prices": {
-    "nook": 1100,
-    "CJ": 1650
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a sea horse! But...where's its sea jockey?",
+    "blathers": "Ah, a favorite of mine, to be sure! The sea horse is such a very unique creature and is indeed a fish! Though, as far as fish go, sea horses are not great swimmers. The sea horse, you see, has but a wee fin on its back, which propels it through water rather poorly. Thus these fish are often found using their prehensile tails to hold tight in amongst the sea grass. And here's one final fact for you... Sea horses have no stomach and so must constantly feed to stay alive! Indeed, the life of a land horse sounds far easier than that of the hardworking horse of the sea."
   },
-  "blathers": "Ah, a favorite of mine, to be sure! The sea horse is such a very unique creature and is indeed a fish! Though, as far as fish go, sea horses are not great swimmers. The sea horse, you see, has but a wee fin on its back, which propels it through water rather poorly. Thus these fish are often found using their prehensile tails to hold tight in amongst the sea grass. And here's one final fact for you... Sea horses have no stomach and so must constantly feed to stay alive! Indeed, the life of a land horse sounds far easier than that of the hardworking horse of the sea.",
-  "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/48"
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/48",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/48"
+  }
 }

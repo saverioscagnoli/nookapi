@@ -2,53 +2,73 @@
   "id": 33,
   "names": {
     "en": "mitten crab",
-    "de": "Wollhandkrabbe",
-    "es": "cangrejo de Shanghái",
+    "de": "wollhandkrabbe",
+    "es": "cangrejo de shanghái",
     "fr": "crabe chinois",
-    "it": "crabe chinois",
-    "nl": "granchio guantato",
-    "cn": "wolhandkrab",
-    "jp": "中華絨螯蟹",
-    "kr": "シャンハイガニ",
-    "ru": "참게"
+    "it": "granchio guantato",
+    "nl": "wolhandkrab",
+    "cn": "中华绒螯蟹",
+    "jp": "シャンハイガニ",
+    "kr": "참게",
+    "ru": "мохнорукий краб"
   },
   "seasonality": {
-    "northern": [
-      9,
-      10,
-      11
-    ],
-    "southern": [
-      3,
-      4,
-      5
-    ]
+    "northern": {
+      "name": "sep-nov",
+      "indices": "9-11",
+      "indices_array": [
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "mar-may",
+      "indices": "3-5",
+      "indices_array": [
+        3,
+        4,
+        5
+      ]
+    }
   },
-  "time_day": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 2000,
     "CJ": 3000
   },
-  "blathers": "The mitten crab was named for its impossibly adorable and fuzzy little pincers. These cute crustaceans embark on quite the journey. They're first born in brackish waters. Then they mature in freshwater. Finally, they travel to the ocean to create more mitten crabs!Hoo! How I delight in the thought of thousands of tiny mittened crabs scuttling about!",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/33"
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a mitten crab! One more and I'm ready for winter!",
+    "blathers": "The mitten crab was named for its impossibly adorable and fuzzy little pincers. These cute crustaceans embark on quite the journey. They're first born in brackish waters. Then they mature in freshwater. Finally, they travel to the ocean to create more mitten crabs!Hoo! How I delight in the thought of thousands of tiny mittened crabs scuttling about!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/33",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/33"
+  }
 }

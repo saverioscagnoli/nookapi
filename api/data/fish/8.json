@@ -2,61 +2,81 @@
   "id": 8,
   "names": {
     "en": "pop-eyed goldfish",
-    "de": "Teleskopauge",
+    "de": "teleskopauge",
     "es": "pez telescopio",
     "fr": "cyprin doré",
-    "it": "cyprin doré",
-    "nl": "pesce telescopio",
-    "cn": "telescoopooggoudvis",
-    "jp": "龍睛金魚",
-    "kr": "デメキン",
-    "ru": "툭눈금붕어"
+    "it": "pesce telescopio",
+    "nl": "telescoopooggoudvis",
+    "cn": "龙睛金鱼",
+    "jp": "デメキン",
+    "kr": "툭눈금붕어",
+    "ru": "телескоп"
   },
   "seasonality": {
-    "northern": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "southern": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ]
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 1300,
     "CJ": 1950
   },
-  "blathers": "Pop-eyed goldfish have, as the name suggests, huge round eyes. But as babies they look like other goldfish! As they grow, their eyes begin to pop out and they gain their, hoo, distinct appearance... Imagine the poor fish fancier who unknowingly bought one! Their eyes might well pop out just as far!",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/8"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "pond",
+  "phrases": {
+    "catch": "I got a pop-eyed goldfish! It looks so...surprised!",
+    "blathers": "Pop-eyed goldfish have, as the name suggests, huge round eyes. But as babies they look like other goldfish! As they grow, their eyes begin to pop out and they gain their, hoo, distinct appearance... Imagine the poor fish fancier who unknowingly bought one! Their eyes might well pop out just as far!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/8",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/8"
+  }
 }

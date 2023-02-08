@@ -2,64 +2,83 @@
   "id": 10,
   "names": {
     "en": "killifish",
-    "de": "Killifisch",
+    "de": "killifisch",
     "es": "killi",
     "fr": "fondule barré",
-    "it": "fondule barré",
-    "nl": "killifish",
-    "cn": "killivis",
-    "jp": "稻田魚",
-    "kr": "メダカ",
-    "ru": "송사리"
+    "it": "killifish",
+    "nl": "killivis",
+    "cn": "稻田鱼",
+    "jp": "メダカ",
+    "kr": "송사리",
+    "ru": "оризия"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8
-    ],
-    "southern": [
-      10,
-      11,
-      12,
-      1,
-      2
-    ]
+    "northern": {
+      "name": "apr-aug",
+      "indices": "4-8",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "oct-feb",
+      "indices": "10-2",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 300,
     "CJ": 450
   },
-  "blathers": "Ah, the magnificent killifish! Did you know there are over 1,000 different species? My own favorite killifish species are the mangrove, which can live on land for weeks, breathing air! And the mummichog, the first fish ever brought to space. I wonder if the killifish you've brought me is related to either those intrepid explorers?",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/10"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "pond",
+  "phrases": {
+    "catch": "I caught a killifish! The streams are safe again.",
+    "blathers": "Ah, the magnificent killifish! Did you know there are over 1,000 different species? My own favorite killifish species are the mangrove, which can live on land for weeks, breathing air! And the mummichog, the first fish ever brought to space. I wonder if the killifish you've brought me is related to either those intrepid explorers?"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/10",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/10"
+  }
 }

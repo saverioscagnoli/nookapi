@@ -2,49 +2,69 @@
   "id": 37,
   "names": {
     "en": "betta",
-    "de": "Kampffisch",
+    "de": "kampffisch",
     "es": "betta",
     "fr": "combattant",
-    "it": "combattant",
-    "nl": "betta",
-    "cn": "Siamese kempvis",
-    "jp": "鬥魚",
-    "kr": "ベタ",
-    "ru": "베타"
+    "it": "betta",
+    "nl": "siamese kempvis",
+    "cn": "斗鱼",
+    "jp": "ベタ",
+    "kr": "베타",
+    "ru": "сиамский петушок"
   },
   "seasonality": {
-    "northern": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "southern": [
-      11,
-      12,
-      1,
-      2,
-      3,
-      4
-    ]
+    "northern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 2500,
     "CJ": 3750
   },
-  "blathers": "The betta has long fins and beautiful coloring. It is a tropical fish popular in decorative aquariums. They're very territorial and will fight to complete exhaustion, so aquarists must keep them carefully. Rarely do such beauty and violence commingle outside the rowdiest of sunset-viewing parties.",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/37"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a betta! I betta not drop it!",
+    "blathers": "The betta has long fins and beautiful coloring. It is a tropical fish popular in decorative aquariums. They're very territorial and will fight to complete exhaustion, so aquarists must keep them carefully. Rarely do such beauty and violence commingle outside the rowdiest of sunset-viewing parties."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/37",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/37"
+  }
 }

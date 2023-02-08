@@ -2,18 +2,60 @@
   "id": 53,
   "names": {
     "en": "zebra turkeyfish",
-    "de": "Rotfeuerfisch",
+    "de": "rotfeuerfisch",
     "es": "pez león",
     "fr": "poisson-scorpion",
-    "it": "poisson-scorpion",
-    "nl": "leone zebrato",
-    "cn": "koraalduivel",
-    "jp": "獅子魚",
-    "kr": "ミノカサゴ",
-    "ru": "쏨뱅이"
+    "it": "leone zebrato",
+    "nl": "koraalduivel",
+    "cn": "狮子鱼",
+    "jp": "ミノカサゴ",
+    "kr": "쏨뱅이",
+    "ru": "крылатка"
   },
   "seasonality": {
-    "northern": [
+    "northern": {
+      "name": "apr-nov",
+      "indices": "4-11",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "oct-may",
+      "indices": "10-5",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "shadow_size": 3,
+  "sell_prices": {
+    "nook": 500,
+    "CJ": 750
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
       4,
       5,
       6,
@@ -21,51 +63,28 @@
       8,
       9,
       10,
-      11
-    ],
-    "southern": [
-      10,
       11,
       12,
-      1,
-      2,
-      3,
-      4,
-      5
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
     ]
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
-  "shadow_size": 3,
-  "sell_prices": {
-    "nook": 500,
-    "CJ": 750
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a zebra turkeyfish! Land, air, water--make up your mind!",
+    "blathers": "The sheer brilliance and diversity found in the aquatic underworld never cease to amaze me. This zebra turkeyfish is as stunning to gaze upon as it is deadly. Those spines that are part of its defining physique are chock-full of venom. Fortunately, zebra turkeyfish are not susceptible to another's venom. Though solitary, I imagine they give one another a mean fin bump when passing each other by."
   },
-  "blathers": "The sheer brilliance and diversity found in the aquatic underworld never cease to amaze me. This zebra turkeyfish is as stunning to gaze upon as it is deadly. Those spines that are part of its defining physique are chock-full of venom. Fortunately, zebra turkeyfish are not susceptible to another's venom. Though solitary, I imagine they give one another a mean fin bump when passing each other by.",
-  "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/53"
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/53",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/53"
+  }
 }

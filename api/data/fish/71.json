@@ -2,55 +2,75 @@
   "id": 71,
   "names": {
     "en": "ray",
-    "de": "Rochen",
+    "de": "rochen",
     "es": "raya",
     "fr": "raie",
-    "it": "raie",
-    "nl": "razza",
-    "cn": "rog",
-    "jp": "魟魚",
-    "kr": "エイ",
-    "ru": "가오리"
+    "it": "razza",
+    "nl": "rog",
+    "cn": "鳐鱼",
+    "jp": "エイ",
+    "kr": "가오리",
+    "ru": "красный хвостокол"
   },
   "seasonality": {
-    "northern": [
-      8,
-      9,
-      10,
-      11
-    ],
-    "southern": [
-      2,
-      3,
-      4,
-      5
-    ]
+    "northern": {
+      "name": "aug-nov",
+      "indices": "8-11",
+      "indices_array": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "feb-may",
+      "indices": "2-5",
+      "indices_array": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
   },
-  "time_day": [
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-  ],
   "shadow_size": 5,
   "sell_prices": {
     "nook": 3000,
     "CJ": 4500
   },
-  "blathers": "The ray is an unusually shaped fish with a flat body and a long body, somewhat related to sharks. Seen from the bottom, the mouth on its stomach appears to be smiling, which is objectively adorable. But be cautious—unlike most cute animals, some rays are extremely venomous. BEWARE THE SMILE.",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/71"
+  "day": {
+    "h12": "4am-9pm",
+    "h24": "21-4",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a ray! A few more and I'll have a tan!",
+    "blathers": "The ray is an unusually shaped fish with a flat body and a long body, somewhat related to sharks. Seen from the bottom, the mouth on its stomach appears to be smiling, which is objectively adorable. But be cautious—unlike most cute animals, some rays are extremely venomous. BEWARE THE SMILE."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/71",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/71"
+  }
 }

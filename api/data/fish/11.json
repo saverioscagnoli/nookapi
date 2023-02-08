@@ -2,66 +2,85 @@
   "id": 11,
   "names": {
     "en": "crawfish",
-    "de": "Flusskrebs",
+    "de": "flusskrebs",
     "es": "cangrejo de río",
     "fr": "écrevisse",
-    "it": "écrevisse",
-    "nl": "gambero",
-    "cn": "rode rivierkreeft",
-    "jp": "淡水龍蝦",
-    "kr": "ザリガニ",
-    "ru": "가재"
+    "it": "gambero",
+    "nl": "rode rivierkreeft",
+    "cn": "淡水龙虾",
+    "jp": "ザリガニ",
+    "kr": "가재",
+    "ru": "рак"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 200,
     "CJ": 300
   },
-  "blathers": "Ohoo! So you have found a crawfish. Neither crab nor lobster, crawfish evolved in an interesting manner. Beware their fearsome pinchy pinchers! Behold their many legs! I say! It is a big bug-like, eh wot...The more I look at it, the more unsettled I feel... Let's be done with this and never speak of it again, shall we?",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/11"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "pond",
+  "phrases": {
+    "catch": "I caught a crawfish! Or else it's a lobster and I'm a giant!",
+    "blathers": "Ohoo! So you have found a crawfish. Neither crab nor lobster, crawfish evolved in an interesting manner. Beware their fearsome pinchy pinchers! Behold their many legs! I say! It is a big bug-like, eh wot...The more I look at it, the more unsettled I feel... Let's be done with this and never speak of it again, shall we?"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/11",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/11"
+  }
 }

@@ -2,60 +2,79 @@
   "id": 64,
   "names": {
     "en": "moray eel",
-    "de": "Muräne",
+    "de": "muräne",
     "es": "morena",
     "fr": "murène",
-    "it": "murène",
-    "nl": "murena",
-    "cn": "murene",
-    "jp": "裸胸鱔",
-    "kr": "ウツボ",
-    "ru": "곰치"
+    "it": "murena",
+    "nl": "murene",
+    "cn": "裸胸鳝",
+    "jp": "ウツボ",
+    "kr": "곰치",
+    "ru": "мурена"
   },
   "seasonality": {
-    "northern": [
-      8,
-      9,
-      10
-    ],
-    "southern": [
-      2,
-      3,
-      4
-    ]
+    "northern": {
+      "name": "aug-oct",
+      "indices": "8-10",
+      "indices_array": [
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "feb-apr",
+      "indices": "2-4",
+      "indices_array": [
+        2,
+        3,
+        4
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": "narrow",
   "sell_prices": {
     "nook": 2000,
     "CJ": 3000
   },
-  "blathers": "Despite its rather frightening features, the moray eel is really a very cowardly fish. It lives its life hiding in caves, and will only attack if you're looking for a fight. You've heard of a \"bark that is worse than the bite\"? Well, the moray eel has a face that's worse than its fight!",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/64"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a moray eel! When you're in love, that's a moray!",
+    "blathers": "Despite its rather frightening features, the moray eel is really a very cowardly fish. It lives its life hiding in caves, and will only attack if you're looking for a fight. You've heard of a \"bark that is worse than the bite\"? Well, the moray eel has a face that's worse than its fight!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/64",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/64"
+  }
 }

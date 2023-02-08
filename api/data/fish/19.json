@@ -2,43 +2,63 @@
   "id": 19,
   "names": {
     "en": "giant snakehead",
-    "de": "Schlangenkopf",
+    "de": "schlangenkopf",
     "es": "pez cabeza de serpiente",
     "fr": "tête-de-serpent",
-    "it": "tête-de-serpent",
-    "nl": "pesce serpente",
-    "cn": "rode slangenkopvis",
-    "jp": "鱧魚",
-    "kr": "ライギョ",
-    "ru": "가물치"
+    "it": "pesce serpente",
+    "nl": "rode slangenkopvis",
+    "cn": "黑鱼",
+    "jp": "ライギョ",
+    "kr": "가물치",
+    "ru": "змееголов"
   },
   "seasonality": {
-    "northern": [
-      6,
-      7,
-      8
-    ],
-    "southern": [
-      12,
-      1,
-      2
-    ]
+    "northern": {
+      "name": "jun-aug",
+      "indices": "6-8",
+      "indices_array": [
+        6,
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "dec-feb",
+      "indices": "12-2",
+      "indices_array": [
+        12,
+        1,
+        2
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 5,
   "sell_prices": {
     "nook": 5500,
     "CJ": 8250
   },
-  "blathers": "The giant snakehead is quite a sight to behold, wot! One glance conjurs up visions of its namesake. This resilient creature can even find a home in the mud, where it is able to breathe. As a matter of fact, it dislikes cold weather, so during wintertime the mud serves as its temporary home. I hear that they eat anything that swims past their head. While odd, I feel a sense of owlship with them.",
   "rarity": "***",
-  "render": "http://localhost:5000/api/render/fish/19"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "pond",
+  "phrases": {
+    "catch": "I caught a giant snakehead! Um...but I asked for a medium?",
+    "blathers": "The giant snakehead is quite a sight to behold, wot! One glance conjurs up visions of its namesake. This resilient creature can even find a home in the mud, where it is able to breathe. As a matter of fact, it dislikes cold weather, so during wintertime the mud serves as its temporary home. I hear that they eat anything that swims past their head. While odd, I feel a sense of owlship with them."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/19",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/19"
+  }
 }

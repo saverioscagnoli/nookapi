@@ -2,53 +2,73 @@
   "id": 70,
   "names": {
     "en": "ocean sunfish",
-    "de": "Mondfisch",
+    "de": "mondfisch",
     "es": "pez luna",
     "fr": "lune de mer",
-    "it": "poisson-lune",
-    "nl": "pesce luna",
-    "cn": "klompvis",
-    "jp": "翻車魚",
-    "kr": "マンボウ",
-    "ru": "개복치"
+    "it": "pesce luna",
+    "nl": "klompvis",
+    "cn": "翻车鱼",
+    "jp": "マンボウ",
+    "kr": "개복치",
+    "ru": "луна-рыба"
   },
   "seasonality": {
-    "northern": [
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "jul-sep",
+      "indices": "7-9",
+      "indices_array": [
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "jan-mar",
+      "indices": "1-3",
+      "indices_array": [
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-  ],
   "shadow_size": 6,
   "sell_prices": {
     "nook": 4000,
     "CJ": 6000
   },
-  "blathers": "The ocean sunfish is a large relative of the blowfish with an unusual shape, like a fish head with a tail. They are a fairly relaxed species, often content to ride where the currents take them. This is fortunate as, otherwise, the sight of a large head coming toward you might be alarming!",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/70"
+  "day": {
+    "h12": "4am-9pm",
+    "h24": "21-4",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught an ocean sunfish! Good thing I'm wearing ocean sunscreen!",
+    "blathers": "The ocean sunfish is a large relative of the blowfish with an unusual shape, like a fish head with a tail. They are a fairly relaxed species, often content to ride where the currents take them. This is fortunate as, otherwise, the sight of a large head coming toward you might be alarming!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/70",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/70"
+  }
 }

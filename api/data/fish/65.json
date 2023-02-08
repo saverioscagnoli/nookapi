@@ -2,64 +2,83 @@
   "id": 65,
   "names": {
     "en": "ribbon eel",
-    "de": "Nasenmuräne",
+    "de": "nasenmuräne",
     "es": "anguila de listón azul",
     "fr": "murène ruban bleue",
-    "it": "murène ruban bleue",
-    "nl": "murena a nastro",
-    "cn": "lintmurene",
-    "jp": "五彩鰻",
-    "kr": "ハナヒゲウツボ",
-    "ru": "리본장어"
+    "it": "murena a nastro",
+    "nl": "lintmurene",
+    "cn": "五彩鳗",
+    "jp": "ハナヒゲウツボ",
+    "kr": "리본장어",
+    "ru": "носатая мурена"
   },
   "seasonality": {
-    "northern": [
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "southern": [
-      12,
-      1,
-      2,
-      3,
-      4
-    ]
+    "northern": {
+      "name": "jun-oct",
+      "indices": "6-10",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "dec-apr",
+      "indices": "12-4",
+      "indices_array": [
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": "narrow",
   "sell_prices": {
     "nook": 600,
     "CJ": 900
   },
-  "blathers": "The ribbon eel is related to the moray eel, though its bright coloration distinguishes it. It also has an unusual plant-like appendage at the tip of its nose that flutters as the creature moves. I like to think of it as having an extremely friendly nose that waves a greeting to those nearby!",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/65"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a ribbon eel! Can it tie itself into a bow?",
+    "blathers": "The ribbon eel is related to the moray eel, though its bright coloration distinguishes it. It also has an unusual plant-like appendage at the tip of its nose that flutters as the creature moves. I like to think of it as having an extremely friendly nose that waves a greeting to those nearby!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/65",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/65"
+  }
 }

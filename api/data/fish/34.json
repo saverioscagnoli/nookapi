@@ -2,53 +2,73 @@
   "id": 34,
   "names": {
     "en": "guppy",
-    "de": "Guppy",
+    "de": "guppy",
     "es": "gupi",
     "fr": "guppy",
     "it": "guppy",
     "nl": "guppy",
-    "cn": "guppy",
-    "jp": "孔雀魚",
-    "kr": "グッピー",
-    "ru": "구피"
+    "cn": "孔雀鱼",
+    "jp": "グッピー",
+    "kr": "구피",
+    "ru": "гуппи"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11
-    ],
-    "southern": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "northern": {
+      "name": "apr-nov",
+      "indices": "4-11",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "oct-may",
+      "indices": "10-5",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 1300,
     "CJ": 1950
   },
-  "blathers": "Oh my! Would you look at that! Such a beautiful, snazzy little fellow that guppy is! The shape and coloration of guppy fins are all unique. Quite eye-catching, I must say. Do you imagine they host contests for \"most snazzy\"? And...do you suppose I might receive an invite?",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/34"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a guppy! Welcome to the team, newbie!",
+    "blathers": "Oh my! Would you look at that! Such a beautiful, snazzy little fellow that guppy is! The shape and coloration of guppy fins are all unique. Quite eye-catching, I must say. Do you imagine they host contests for \"most snazzy\"? And...do you suppose I might receive an invite?"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/34",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/34"
+  }
 }

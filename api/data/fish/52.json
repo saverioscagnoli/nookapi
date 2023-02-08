@@ -1,52 +1,72 @@
 {
   "id": 52,
   "names": {
-    "en": "Napoleonfish",
-    "de": "Napoleonfisch",
+    "en": "napoleonfish",
+    "de": "napoleonfisch",
     "es": "pez napoleón",
     "fr": "napoléon",
-    "it": "napoléon",
-    "nl": "pesce napoleone",
-    "cn": "napoleonvis",
-    "jp": "蘇眉魚",
-    "kr": "ナポレオンフィッシュ",
-    "ru": "나폴레옹피시"
+    "it": "pesce napoleone",
+    "nl": "napoleonvis",
+    "cn": "苏眉鱼",
+    "jp": "ナポレオンフィッシュ",
+    "kr": "나폴레옹피시",
+    "ru": "рыба-наполеон"
   },
   "seasonality": {
-    "northern": [
-      7,
-      8
-    ],
-    "southern": [
-      1,
-      2
-    ]
+    "northern": {
+      "name": "jul-aug",
+      "indices": "7-8",
+      "indices_array": [
+        7,
+        8
+      ]
+    },
+    "southern": {
+      "name": "jan-feb",
+      "indices": "1-2",
+      "indices_array": [
+        1,
+        2
+      ]
+    }
   },
-  "time_day": [
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-  ],
   "shadow_size": 6,
   "sell_prices": {
     "nook": 10000,
     "CJ": 15000
   },
-  "blathers": "Quite the catch you've brought! The stately and debonair Napoleonfish is truly something to behold. Those beady eyes! That bumpy head! That bold blue-green coloring! Alas, this quirky creature is quite endangered due to a variety of factors. Needless to say, we must do our very best to take care of our lumpy friend and its environment.",
   "rarity": "***",
-  "render": "http://localhost:5000/api/render/fish/52"
+  "day": {
+    "h12": "4am-9pm",
+    "h24": "21-4",
+    "hours_array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a Napoleonfish! It's not as big as it thinks!",
+    "blathers": "Quite the catch you've brought! The stately and debonair Napoleonfish is truly something to behold. Those beady eyes! That bumpy head! That bold blue-green coloring! Alas, this quirky creature is quite endangered due to a variety of factors. Needless to say, we must do our very best to take care of our lumpy friend and its environment."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/52",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/52"
+  }
 }

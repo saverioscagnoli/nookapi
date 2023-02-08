@@ -2,47 +2,67 @@
   "id": 35,
   "names": {
     "en": "nibble fish",
-    "de": "Saugbarbe",
+    "de": "saugbarbe",
     "es": "pez doctor",
     "fr": "poisson docteur",
-    "it": "poisson docteur",
-    "nl": "garra rufa",
-    "cn": "knabbelvisje",
-    "jp": "溫泉醫生魚",
-    "kr": "ドクターフィッシュ",
-    "ru": "닥터피시"
+    "it": "garra rufa",
+    "nl": "knabbelvisje",
+    "cn": "温泉医生鱼",
+    "jp": "ドクターフィッシュ",
+    "kr": "닥터피시",
+    "ru": "рыба-доктор"
   },
   "seasonality": {
-    "northern": [
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      11,
-      12,
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "may-sep",
+      "indices": "5-9",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "nov-mar",
+      "indices": "11-3",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 1500,
     "CJ": 2250
   },
-  "blathers": "Nibble fish are best known for their use in a certain skin treatment. This treatment has apparently been used for thousands of years. I have never experienced said treatment because they eat your dead skin with their little toothless mouths! Can you imagine anything so repellent?! Please don't ask me any follow-up questions. Hoo.",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/35"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a nibble fish! Come to think of it, I could use a bite!",
+    "blathers": "Nibble fish are best known for their use in a certain skin treatment. This treatment has apparently been used for thousands of years. I have never experienced said treatment because they eat your dead skin with their little toothless mouths! Can you imagine anything so repellent?! Please don't ask me any follow-up questions. Hoo."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/35",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/35"
+  }
 }

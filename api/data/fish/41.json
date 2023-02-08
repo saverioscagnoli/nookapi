@@ -2,55 +2,75 @@
   "id": 41,
   "names": {
     "en": "arowana",
-    "de": "Arowana",
+    "de": "arowana",
     "es": "arowana",
     "fr": "arowana",
     "it": "arowana",
     "nl": "arowana",
-    "cn": "arowana",
-    "jp": "骨舌魚",
-    "kr": "アロワナ",
-    "ru": "아로와나"
+    "cn": "骨舌鱼",
+    "jp": "アロワナ",
+    "kr": "아로와나",
+    "ru": "аравана"
   },
   "seasonality": {
-    "northern": [
-      6,
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      12,
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "jun-sep",
+      "indices": "6-9",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "dec-mar",
+      "indices": "12-3",
+      "indices_array": [
+        12,
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  ],
   "shadow_size": 4,
   "sell_prices": {
     "nook": 10000,
     "CJ": 15000
   },
-  "blathers": "It would seem your angling expertise knows no bounds! This beauteous arowana fetches a pretty Bell, though I'd venture to say that its true price is beyond measure. The arowana has been on the endangered-species list for some time. It's up to us to remain educated and do all we can to help preserve such magnificent creatures. Not to worry, old bean. This lovely fishy friend is in good wings here! On behalf of the museum, I thank you warmly for your unending generosity!",
   "rarity": "***",
-  "render": "http://localhost:5000/api/render/fish/41"
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught an arowana! I'd make a joke, but I don't 'wana.",
+    "blathers": "It would seem your angling expertise knows no bounds! This beauteous arowana fetches a pretty Bell, though I'd venture to say that its true price is beyond measure. The arowana has been on the endangered-species list for some time. It's up to us to remain educated and do all we can to help preserve such magnificent creatures. Not to worry, old bean. This lovely fishy friend is in good wings here! On behalf of the museum, I thank you warmly for your unending generosity!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/41",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/41"
+  }
 }

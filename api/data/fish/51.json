@@ -2,66 +2,85 @@
   "id": 51,
   "names": {
     "en": "butterfly fish",
-    "de": "Falterfisch",
+    "de": "falterfisch",
     "es": "pez mariposa",
     "fr": "poisson-papillon",
-    "it": "poisson-papillon",
-    "nl": "pesce farfalla",
-    "cn": "koraalvlinder",
-    "jp": "耳帶蝴蝶魚",
-    "kr": "チョウチョウウオ",
-    "ru": "나비고기"
+    "it": "pesce farfalla",
+    "nl": "koraalvlinder",
+    "cn": "耳带蝴蝶鱼",
+    "jp": "チョウチョウウオ",
+    "kr": "나비고기",
+    "ru": "рыба-бабочка"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 1000,
     "CJ": 1500
   },
-  "blathers": "Ah, the butterfly fish is just charming with its beautiful colors and elegant movements. I refer to it as a butterfly fish, but it's actually a grouping in which there are over 100 types! These beautiful aquatic friends swim in schools amid coral, fluttering back and forth with the tides. The sheer awe one must experience when witnessing such a sight. It must be a dream! So much better than actual butterflies...",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/51"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a butterfly fish! Did it change from a caterpillar fish?",
+    "blathers": "Ah, the butterfly fish is just charming with its beautiful colors and elegant movements. I refer to it as a butterfly fish, but it's actually a grouping in which there are over 100 types! These beautiful aquatic friends swim in schools amid coral, fluttering back and forth with the tides. The sheer awe one must experience when witnessing such a sight. It must be a dream! So much better than actual butterflies..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/51",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/51"
+  }
 }

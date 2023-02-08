@@ -2,55 +2,75 @@
   "id": 73,
   "names": {
     "en": "hammerhead shark",
-    "de": "Hammerhai",
+    "de": "hammerhai",
     "es": "pez martillo",
     "fr": "requin marteau",
-    "it": "requin-marteau",
-    "nl": "pesce martello",
-    "cn": "hamerhaai",
-    "jp": "雙髻鯊",
-    "kr": "シュモクザメ",
-    "ru": "귀상어"
+    "it": "pesce martello",
+    "nl": "hamerhaai",
+    "cn": "双髻鲨",
+    "jp": "シュモクザメ",
+    "kr": "귀상어",
+    "ru": "рыба-молот"
   },
   "seasonality": {
-    "northern": [
-      6,
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      12,
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "jun-sep",
+      "indices": "6-9",
+      "indices_array": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "dec-mar",
+      "indices": "12-3",
+      "indices_array": [
+        12,
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  ],
   "shadow_size": 6,
   "sell_prices": {
     "nook": 8000,
     "CJ": 12000
   },
-  "blathers": "The hammerhead shark is known for its distinctive, hammer-shaped head, hence the name. Er, obviously. Anyhoot, this oddly shaped head allows the beast to see 360 degrees around itself, from top to bottom. Imagine being able to see so widely! You could check for untied shoelaces AND imminent rain simultaneously!",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/73"
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a hammerhead shark! I hit the nail on the head!",
+    "blathers": "The hammerhead shark is known for its distinctive, hammer-shaped head, hence the name. Er, obviously. Anyhoot, this oddly shaped head allows the beast to see 360 degrees around itself, from top to bottom. Imagine being able to see so widely! You could check for untied shoelaces AND imminent rain simultaneously!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/73",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/73"
+  }
 }

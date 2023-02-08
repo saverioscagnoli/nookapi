@@ -2,51 +2,71 @@
   "id": 13,
   "names": {
     "en": "snapping turtle",
-    "de": "Schnappschildkröte",
+    "de": "schnappschildkröte",
     "es": "tortuga mordedora",
     "fr": "tortue serpentine",
-    "it": "tortue serpentine",
-    "nl": "tartaruga azzannatrice",
-    "cn": "bijtschildpad",
-    "jp": "擬鱷龜",
-    "kr": "カミツキガメ",
-    "ru": "늑대거북"
+    "it": "tartaruga azzannatrice",
+    "nl": "bijtschildpad",
+    "cn": "拟鳄龟",
+    "jp": "カミツキガメ",
+    "kr": "늑대거북",
+    "ru": "каймановая черепаха"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "southern": [
-      10,
-      11,
-      12,
+    "northern": {
+      "name": "apr-oct",
+      "indices": "4-10",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "oct-apr",
+      "indices": "10-4",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "shadow_size": 5,
+  "sell_prices": {
+    "nook": 5000,
+    "CJ": 7500
+  },
+  "rarity": "*",
+  "day": {
+    "h12": "9pm-4am",
+    "h24": "21-4",
+    "hours_array": [
+      21,
+      22,
+      23,
+      0,
       1,
       2,
       3,
       4
     ]
   },
-  "time_day": [
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3
-  ],
-  "shadow_size": 5,
-  "sell_prices": {
-    "nook": 5000,
-    "CJ": 7500
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a snapping turtle! How can it snap without fingers?",
+    "blathers": "The snapping turtle is a large turtle known for it's crocodile-like body and long claws. No, wait-- it is better known for it's ferocious bite, which it can deliver with shocking speed for a turtle. NO, WAIT-- it is BEST known for that time one chased me across a parking lot and I had to climb on top of a car."
   },
-  "blathers": "The snapping turtle is a large turtle known for it's crocodile-like body and long claws. No, wait-- it is better known for it's ferocious bite, which it can deliver with shocking speed for a turtle. NO, WAIT-- it is BEST known for that time one chased me across a parking lot and I had to climb on top of a car.",
-  "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/13"
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/13",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/13"
+  }
 }

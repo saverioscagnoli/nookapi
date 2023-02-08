@@ -2,56 +2,75 @@
   "id": 31,
   "names": {
     "en": "salmon",
-    "de": "Lachs",
+    "de": "lachs",
     "es": "salmón",
     "fr": "saumon",
-    "it": "saumon",
-    "nl": "salmone",
-    "cn": "zalm",
-    "jp": "鮭魚",
-    "kr": "サケ",
-    "ru": "연어"
+    "it": "salmone",
+    "nl": "zalm",
+    "cn": "鲑鱼",
+    "jp": "サケ",
+    "kr": "연어",
+    "ru": "лосось"
   },
   "seasonality": {
-    "northern": [
-      9
-    ],
-    "southern": [
-      3
-    ]
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        9
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        3
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 4,
   "sell_prices": {
     "nook": 700,
     "CJ": 1050
   },
-  "blathers": "Ah, salmon! Did you know their coloration is due specifically to their diet? Indeed, this is the case! The more they fill their diet with crustaceans such as krill and shrimp, the deeper shade of pink they are. If they ate a bushel of carrots, might they turn orange?",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/31"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "river (mouth)",
+  "phrases": {
+    "catch": "I caught a salmon! It's all upstream from here!",
+    "blathers": "Ah, salmon! Did you know their coloration is due specifically to their diet? Indeed, this is the case! The more they fill their diet with crustaceans such as krill and shrimp, the deeper shade of pink they are. If they ate a bushel of carrots, might they turn orange?"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/31",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/31"
+  }
 }

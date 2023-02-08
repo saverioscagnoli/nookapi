@@ -2,66 +2,85 @@
   "id": 68,
   "names": {
     "en": "giant trevally",
-    "de": "Stachelmakrele",
+    "de": "stachelmakrele",
     "es": "jurel gigante",
     "fr": "carangue grosse tête",
-    "it": "carangue grosse tête",
-    "nl": "carango gigante",
-    "cn": "reuzenhorsmakreel",
-    "jp": "浪人鰺",
-    "kr": "ロウニンアジ",
-    "ru": "무명갈전갱이"
+    "it": "carango gigante",
+    "nl": "reuzenhorsmakreel",
+    "cn": "白面弄鱼",
+    "jp": "ロウニンアジ",
+    "kr": "무명갈전갱이",
+    "ru": "гигантский каранкс"
   },
   "seasonality": {
-    "northern": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "southern": [
-      11,
-      12,
-      1,
-      2,
-      3,
-      4
-    ]
+    "northern": {
+      "name": "may-oct",
+      "indices": "5-10",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "southern": {
+      "name": "nov-apr",
+      "indices": "11-4",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 5,
   "sell_prices": {
     "nook": 4500,
     "CJ": 6750
   },
-  "blathers": "The giant trevally, as befits its name, can reach six feet in length and 180 pounds! Its size and strength have made it a favored opponent for anglers since time immemorial. They are also ingenious hunters, sometimes taking advantage of other predators to distract their prey. There have even been documented cases of them attacking —gulp— birds.",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/68"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "pier",
+  "phrases": {
+    "catch": "I caught a giant trevally! Yeah, I'm pretty well-trevalled.",
+    "blathers": "The giant trevally, as befits its name, can reach six feet in length and 180 pounds! Its size and strength have made it a favored opponent for anglers since time immemorial. They are also ingenious hunters, sometimes taking advantage of other predators to distract their prey. There have even been documented cases of them attacking —gulp— birds."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/68",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/68"
+  }
 }

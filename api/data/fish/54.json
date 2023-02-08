@@ -2,45 +2,65 @@
   "id": 54,
   "names": {
     "en": "blowfish",
-    "de": "Kugelfisch",
+    "de": "kugelfisch",
     "es": "pez globo",
     "fr": "poisson-ballon",
-    "it": "poisson-globe",
-    "nl": "pesce palla",
-    "cn": "kogelvis",
-    "jp": "河豚",
-    "kr": "フグ",
-    "ru": "복어"
+    "it": "pesce palla",
+    "nl": "kogelvis",
+    "cn": "河豚",
+    "jp": "フグ",
+    "kr": "복어",
+    "ru": "бурый скалозуб"
   },
   "seasonality": {
-    "northern": [
-      11,
-      12,
-      1,
-      2
-    ],
-    "southern": [
-      5,
-      6,
-      7,
-      8
-    ]
+    "northern": {
+      "name": "nov-feb",
+      "indices": "11-2",
+      "indices_array": [
+        11,
+        12,
+        1,
+        2
+      ]
+    },
+    "southern": {
+      "name": "may-aug",
+      "indices": "5-8",
+      "indices_array": [
+        5,
+        6,
+        7,
+        8
+      ]
+    }
   },
-  "time_day": [
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3
-  ],
   "shadow_size": 3,
   "sell_prices": {
     "nook": 5000,
     "CJ": 7500
   },
-  "blathers": "As you may know, blowfish carry a deadly poison and are among the most toxic creatures on earth. What you may not have known is that poison and spines are not the limit of this animal's defenses! A predator that tries to swallow a blowfish before it inflates can find itself quickly choking. To be honest, if said predator can get past poison, spines, AND choking hazards, I feel they've earned a meal.",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/54"
+  "day": {
+    "h12": "9pm-4am",
+    "h24": "21-4",
+    "hours_array": [
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a blowfish! I'm blown away!",
+    "blathers": "As you may know, blowfish carry a deadly poison and are among the most toxic creatures on earth. What you may not have known is that poison and spines are not the limit of this animal's defenses! A predator that tries to swallow a blowfish before it inflates can find itself quickly choking. To be honest, if said predator can get past poison, spines, AND choking hazards, I feel they've earned a meal."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/54",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/54"
+  }
 }

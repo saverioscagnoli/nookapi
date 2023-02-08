@@ -2,64 +2,83 @@
   "id": 14,
   "names": {
     "en": "tadpole",
-    "de": "Kaulquappe",
+    "de": "kaulquappe",
     "es": "renacuajo",
     "fr": "têtard",
-    "it": "têtard",
-    "nl": "girino",
-    "cn": "kikkervisje",
-    "jp": "蝌蚪",
-    "kr": "オタマジャクシ",
-    "ru": "올챙이"
+    "it": "girino",
+    "nl": "kikkervisje",
+    "cn": "蝌蚪",
+    "jp": "オタマジャクシ",
+    "kr": "올챙이",
+    "ru": "головастик"
   },
   "seasonality": {
-    "northern": [
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "southern": [
-      9,
-      10,
-      11,
-      12,
-      1
-    ]
+    "northern": {
+      "name": "mar-jul",
+      "indices": "3-7",
+      "indices_array": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "southern": {
+      "name": "sep-jan",
+      "indices": "9-1",
+      "indices_array": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 100,
     "CJ": 150
   },
-  "blathers": "Undoubtedly you know that tadpoles eventually turn into frogs. I must say, I find them impossibly adorable with their squiggly little tails. But even cuter... when they sprout legs! Why, we can witness accelerated evolution in these squirmy little ones. Hoo, it makes me so emotional!",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/14"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "pond",
+  "phrases": {
+    "catch": "I caught a tadpole... It's just a tad small.",
+    "blathers": "Undoubtedly you know that tadpoles eventually turn into frogs. I must say, I find them impossibly adorable with their squiggly little tails. But even cuter... when they sprout legs! Why, we can witness accelerated evolution in these squirmy little ones. Hoo, it makes me so emotional!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/14",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/14"
+  }
 }

@@ -2,71 +2,91 @@
   "id": 16,
   "names": {
     "en": "freshwater goby",
-    "de": "Flussgrundel",
+    "de": "flussgrundel",
     "es": "gobio de río",
     "fr": "gobie d'eau douce",
-    "it": "gobie d'eau douce",
-    "nl": "ghiozzo",
-    "cn": "zoetwatergrondel",
-    "jp": "塘鱧魚",
-    "kr": "ドンコ",
-    "ru": "동사리"
+    "it": "ghiozzo",
+    "nl": "zoetwatergrondel",
+    "cn": "塘鳢鱼",
+    "jp": "ドンコ",
+    "kr": "동사리",
+    "ru": "одонтобутис"
   },
   "seasonality": {
-    "northern": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "southern": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ]
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
   },
-  "time_day": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 400,
     "CJ": 600
   },
-  "blathers": "The freshwater goby is an unassuming specimen. But beneath that calm, fish exterior, true gluttony resides! It will eat anything that will fit in its mouth...And its mouth is quite the gaping maw, so I recommend you refrain from drawing attention to yourself!",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/16"
+  "day": {
+    "h12": "4pm-9am",
+    "h24": "16-9",
+    "hours_array": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a freshwater goby! Time to go bye-bye!",
+    "blathers": "The freshwater goby is an unassuming specimen. But beneath that calm, fish exterior, true gluttony resides! It will eat anything that will fit in its mouth...And its mouth is quite the gaping maw, so I recommend you refrain from drawing attention to yourself!"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/16",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/16"
+  }
 }

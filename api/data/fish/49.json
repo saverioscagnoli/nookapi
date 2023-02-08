@@ -2,66 +2,85 @@
   "id": 49,
   "names": {
     "en": "clown fish",
-    "de": "Anemonenfisch",
+    "de": "anemonenfisch",
     "es": "pez payaso",
     "fr": "poisson-clown",
-    "it": "poisson-clown",
-    "nl": "pesce pagliaccio",
-    "cn": "clownvis",
-    "jp": "小丑魚",
-    "kr": "クマノミ",
-    "ru": "흰동가리"
+    "it": "pesce pagliaccio",
+    "nl": "clownvis",
+    "cn": "小丑鱼",
+    "jp": "クマノミ",
+    "kr": "흰동가리",
+    "ru": "рыба-клоун"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "southern": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3
-    ]
+    "northern": {
+      "name": "apr-sep",
+      "indices": "4-9",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "southern": {
+      "name": "oct-mar",
+      "indices": "10-3",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 650,
     "CJ": 975
   },
-  "blathers": "Few can deny the delightful qualities of the clown fish. These vibrant fishes make their home among venomous anemones. It's a mutually beneficial arrangement. The clown fish finds safety in the anemone's wriggling arms, as well as leftover scraps of food. In return, clown fish ward off parasites and predators for the anemone. Thus these colorful fish remind us of the importance of maintaining good cheer among our roommates.",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/49"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "sea",
+  "phrases": {
+    "catch": "I caught a clown fish! How many can fit in a carfish?",
+    "blathers": "Few can deny the delightful qualities of the clown fish. These vibrant fishes make their home among venomous anemones. It's a mutually beneficial arrangement. The clown fish finds safety in the anemone's wriggling arms, as well as leftover scraps of food. In return, clown fish ward off parasites and predators for the anemone. Thus these colorful fish remind us of the importance of maintaining good cheer among our roommates."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/49",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/49"
+  }
 }

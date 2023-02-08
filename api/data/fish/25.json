@@ -2,60 +2,79 @@
   "id": 25,
   "names": {
     "en": "pond smelt",
-    "de": "Stint",
+    "de": "stint",
     "es": "eperlano",
     "fr": "éperlan",
-    "it": "éperlan",
-    "nl": "pingo",
-    "cn": "spiering",
-    "jp": "西太公魚",
-    "kr": "ワカサギ",
-    "ru": "빙어"
+    "it": "pingo",
+    "nl": "spiering",
+    "cn": "西太公鱼",
+    "jp": "ワカサギ",
+    "kr": "빙어",
+    "ru": "малая корюшка"
   },
   "seasonality": {
-    "northern": [
-      12,
-      1,
-      2
-    ],
-    "southern": [
-      6,
-      7,
-      8
-    ]
+    "northern": {
+      "name": "dec-feb",
+      "indices": "12-2",
+      "indices_array": [
+        12,
+        1,
+        2
+      ]
+    },
+    "southern": {
+      "name": "jun-aug",
+      "indices": "6-8",
+      "indices_array": [
+        6,
+        7,
+        8
+      ]
+    }
   },
-  "time_day": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 400,
     "CJ": 600
   },
-  "blathers": "For many, thinking of pond smelt inevitably leads to thoughts of ice fishing in frozen rivers and lakes. Ice fishing involves making a round hole in the ice, dropping in your fishing line, and...waiting. Not to rain on anyone else's idea of fun, but...well, perhaps I shouldn't say anything.",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/25"
+  "day": {
+    "h12": "all-day",
+    "h24": "all-day",
+    "hours_array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a pond smelt! Whoever smelt it dealt it!",
+    "blathers": "For many, thinking of pond smelt inevitably leads to thoughts of ice fishing in frozen rivers and lakes. Ice fishing involves making a round hole in the ice, dropping in your fishing line, and...waiting. Not to rain on anyone else's idea of fun, but...well, perhaps I shouldn't say anything."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/25",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/25"
+  }
 }

@@ -2,61 +2,81 @@
   "id": 9,
   "names": {
     "en": "ranchu goldfish",
-    "de": "Ranchu",
+    "de": "ranchu",
     "es": "ranchú",
     "fr": "ranchu",
     "it": "ranchu",
-    "nl": "ranchu",
-    "cn": "buffelrug",
-    "jp": "蘭壽金魚",
-    "kr": "ランチュウ",
-    "ru": "난주"
+    "nl": "buffelrug",
+    "cn": "兰寿金鱼",
+    "jp": "ランチュウ",
+    "kr": "난주",
+    "ru": "ранчу"
   },
   "seasonality": {
-    "northern": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "southern": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ]
+    "northern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "southern": {
+      "name": "all-year",
+      "indices": "1-12",
+      "indices_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 2,
   "sell_prices": {
     "nook": 4500,
     "CJ": 6750
   },
-  "blathers": "The ranchu goldfish is a charming relative of the goldfish with a bumpy head and stout, round body. They have ordinary heads when born, but develop impressive rectangular heads after about three years. Supposedly their head shape changes depending on factors like the size of their tank... So ranchu goldfish enthusiasts aim to raise perfectly shaped specimens and work hard to achieve this. Of course, no one asks the ranchu goldfish themselves what shape they want their heads to be...",
   "rarity": "**",
-  "render": "http://localhost:5000/api/render/fish/9"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "pond",
+  "phrases": {
+    "catch": "I caught a ranchu goldfish! But I prefer balsamicu goldfish!",
+    "blathers": "The ranchu goldfish is a charming relative of the goldfish with a bumpy head and stout, round body. They have ordinary heads when born, but develop impressive rectangular heads after about three years. Supposedly their head shape changes depending on factors like the size of their tank... So ranchu goldfish enthusiasts aim to raise perfectly shaped specimens and work hard to achieve this. Of course, no one asks the ranchu goldfish themselves what shape they want their heads to be..."
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/9",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/9"
+  }
 }

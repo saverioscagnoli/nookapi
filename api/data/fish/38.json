@@ -2,53 +2,73 @@
   "id": 38,
   "names": {
     "en": "neon tetra",
-    "de": "Neonsalmler",
+    "de": "neonsalmler",
     "es": "tetra neón",
     "fr": "néon bleu",
-    "it": "néon bleu",
-    "nl": "pesce neon",
-    "cn": "neontetra",
-    "jp": "霓虹燈魚",
-    "kr": "ネオンテトラ",
-    "ru": "네온테트라"
+    "it": "pesce neon",
+    "nl": "neontetra",
+    "cn": "霓虹灯鱼",
+    "jp": "ネオンテトラ",
+    "kr": "네온테트라",
+    "ru": "голубой неон"
   },
   "seasonality": {
-    "northern": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11
-    ],
-    "southern": [
-      10,
-      11,
-      12,
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "northern": {
+      "name": "apr-nov",
+      "indices": "4-11",
+      "indices_array": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "southern": {
+      "name": "oct-may",
+      "indices": "10-5",
+      "indices_array": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
   },
-  "time_day": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
   "shadow_size": 1,
   "sell_prices": {
     "nook": 500,
     "CJ": 750
   },
-  "blathers": "Hoo! Wonderful! The neon tetra is truly a marvel of the tropical-fish world. Just look at how tiny it is! And how very filled with...neon! I imagine its environment must be just as flashy as it is for it to have developed such colors. I wonder how flashy I might be, had I been raised somewhere even half as vibrant?",
   "rarity": "*",
-  "render": "http://localhost:5000/api/render/fish/38"
+  "day": {
+    "h12": "9am-4pm",
+    "h24": "16-9",
+    "hours_array": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "location": "river",
+  "phrases": {
+    "catch": "I caught a neon tetra! Wasn't hard to track.",
+    "blathers": "Hoo! Wonderful! The neon tetra is truly a marvel of the tropical-fish world. Just look at how tiny it is! And how very filled with...neon! I imagine its environment must be just as flashy as it is for it to have developed such colors. I wonder how flashy I might be, had I been raised somewhere even half as vibrant?"
+  },
+  "images": {
+    "render": "https://nook-api.vercel.app/api/render/fish/38",
+    "icon": "https://nook-api.vercel.app/api/icon/fish/38"
+  }
 }
