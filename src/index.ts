@@ -1,18 +1,21 @@
 import express from "express";
 import { dataRoute, iconRoute, renderRoute } from "./routes";
 import "dotenv/config";
+import { resolve } from "path";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
+app.use(express.static(resolve("public/")));
+
 app.use("/api/data", dataRoute);
 app.use("/api/render", renderRoute);
 app.use("/api/icon", iconRoute);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the nOOk-api!");
+  res.sendFile(resolve("public/index.html"));
 });
 
 app.listen(PORT, () => {
