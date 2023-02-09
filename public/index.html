@@ -9,16 +9,57 @@
     <title>nook-api</title>
   </head>
   <body>
-    <div class="box">
-      <h1>nOOk-api!</h1>
-      <div style="position: relative">
-        <img id="logo" src="./img/tn.png" />
-        <img id="qm" src="./img/qm.png" />
+    <div class="con">
+      <div class="flex">
+        <h1>nOOk-api!</h1>
+        <div id="logo-box">
+          <img id="tom-nook" src="./img/tn.png" />
+          <img id="qm" src="./img/qm.png" />
+        </div>
+        <button id="theme-btn">🌑</button>
       </div>
-      <button id="theme-btn">☀</button>
+      <div style="text-align: center; margin-top: 1rem">
+        <h2>Data for Bugs, fishes fossils and more! 🕷️🎣🐰</h2>
+      </div>
+      <p style="margin-top: 2rem">
+        This API is a little side project of mine, made with NodeJS and express.
+      </p>
+      <ul style="margin-left: 1rem; margin-top: 1rem">
+        <input type="checkbox" checked disabled />
+        Fishes 🎣
+        <br />
+        <input type="checkbox" checked disabled />
+        Bugs 🪲
+        <br />
+        <input type="checkbox" checked disabled />
+        Sea creatures 🦀
+        <br />
+        <input type="checkbox" disabled />
+        Fossils 🦕
+        <br />
+        <input type="checkbox" disabled />
+        Villagers 🐰
+        <br />
+      </ul>
     </div>
-    <div class="box">
-      <h1>Critters, fossils villagers and more! 🕷️🦈🐰</h1>
-    </div>
+
+    <script>
+      let btn = document.getElementById("theme-btn");
+      const [DARK_BG, LIGHT_BG] = ["#252525", "#fbf0df"];
+      const [DARK_FONT, LIGHT_FONT] = ["#000000", "#ffffff"];
+      btn.onclick = () => {
+        let r = document.querySelector(":root");
+        let t = getComputedStyle(r);
+        if (t.getPropertyValue("--bg") == DARK_BG) {
+          r.style.setProperty("--bg", LIGHT_BG);
+          r.style.setProperty("--font", DARK_FONT);
+          btn.innerText = "🌑";
+        } else {
+          r.style.setProperty("--bg", DARK_BG);
+          r.style.setProperty("--font", LIGHT_FONT);
+          btn.innerText = "🔆";
+        }
+      };
+    </script>
   </body>
 </html>
