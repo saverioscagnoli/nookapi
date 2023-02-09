@@ -8,12 +8,12 @@ const path_1 = require("path");
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 3000;
 app.use(express_1.default.json());
-app.use(express_1.default.static((0, path_1.resolve)("public/")));
+app.use(express_1.default.static((0, path_1.resolve)(__dirname + "/../../client/dist")));
 app.use("/api/data", routes_1.dataRoute);
 app.use("/api/render", routes_1.renderRoute);
 app.use("/api/icon", routes_1.iconRoute);
 app.get("/", (req, res) => {
-    res.sendFile((0, path_1.resolve)("public/index.html"));
+    res.sendFile((0, path_1.resolve)("dist/index.html"));
 });
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
