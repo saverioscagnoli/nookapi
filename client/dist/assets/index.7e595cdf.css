@@ -1,0 +1,1 @@
+#tn{transition:transform .2s ease-in-out}#tn:hover{cursor:pointer;transform:rotate(10deg)}#qm{transition:transform .2s ease-in-out}#tn:hover+#qm{transform:translateY(-3.3rem)}

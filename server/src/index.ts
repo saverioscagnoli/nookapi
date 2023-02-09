@@ -8,14 +8,14 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.use(express.static(resolve("public/")));
+app.use(express.static(resolve(__dirname + "/../../client/dist")));
 
 app.use("/api/data", dataRoute);
 app.use("/api/render", renderRoute);
 app.use("/api/icon", iconRoute);
 
 app.get("/", (req, res) => {
-  res.sendFile(resolve("public/index.html"));
+  res.sendFile(resolve("dist/index.html"));
 });
 
 app.listen(PORT, () => {
