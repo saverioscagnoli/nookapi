@@ -192,9 +192,13 @@ function App() {
         >
           {loading ? (
             <Center>
-              <VStack>
-                <Spinner />
-              </VStack>
+              <Spinner
+                m={0}
+                pos="absolute"
+                top="50%"
+                transform="translateY(-50%)"
+                size="xl"
+              />
             </Center>
           ) : img ? (
             <Center
