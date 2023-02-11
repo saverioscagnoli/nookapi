@@ -18,7 +18,8 @@ import {
   UnorderedList,
   Link,
   Stack,
-  Checkbox
+  Checkbox,
+  Spinner
 } from "@chakra-ui/react";
 import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 import { SiKofi } from "react-icons/si";
@@ -30,6 +31,7 @@ import ReactJson, { ThemeKeys } from "react-json-view";
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
   const [json, setJson] = useState();
+  const [loading, setLoading] = useState<boolean>(false);
   const [theme, setTheme] = useState<ThemeKeys>("twilight");
   const [img, setImg] = useState<string>();
   const [reqBg, setReqBg] = useState<string>("#1E1E1E");
@@ -45,18 +47,21 @@ function App() {
     "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons";
 
   useEffect(() => {
-    onFetch("http://localhost:5000/api/data/fish/10");
+    onFetch(API_URL + "data/fish/10");
   }, []);
 
   const onFetch = async (url: string) => {
+    setLoading(true);
     const endpoint = url.split("/")[4];
     if (endpoint == "render" || endpoint == "icon") {
       const req = await fetch(url);
       const blob = await req.blob();
+      setLoading(false);
       setImg(URL.createObjectURL(blob));
     } else {
       const req = await fetch(url);
       const data = await req.json();
+      setLoading(false);
       setJson(data);
       setImg(null);
     }
@@ -185,7 +190,13 @@ function App() {
           borderRadius="5"
           overflowY="scroll"
         >
-          {img ? (
+          {loading ? (
+            <Center>
+              <VStack>
+                <Spinner />
+              </VStack>
+            </Center>
+          ) : img ? (
             <Center
               position="absolute"
               top={0}
