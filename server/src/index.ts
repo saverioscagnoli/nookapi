@@ -13,6 +13,10 @@ app.use("/api/data", dataRoute);
 app.use("/api/render", renderRoute);
 app.use("/api/icon", iconRoute);
 
+app.get("*", (req, res) => {
+  res.status(404).sendFile(resolve(__dirname + "/../../client/dist/404.html"));
+});
+
 app.get("/", (req, res) => {
   res.sendFile(resolve("dist/index.html"));
 });
