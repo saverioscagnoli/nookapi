@@ -32,7 +32,7 @@ Each one has its own function to find the data you need! Example (JavaScript):
 import { FishingClient } from "nook-api";
 const client = new FishClient();
 
-console.log(await client.renderById(45));
+console.log(await client.renderById(74));
 ```
 
 Which outputs:

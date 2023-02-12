@@ -9,8 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saverioscagnoli/nOOk-api.git"
-  },  "keywords": [
+    "url": "git+https://github.com/saverioscagnoli/nOOk-api/tree/master/package"
+  },
+  "keywords": [
     "api",
     "database",
     "videogame",
